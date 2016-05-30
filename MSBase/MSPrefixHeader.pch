@@ -1,0 +1,25 @@
+//
+//  MSPrefixHeader.pch
+//  MSBase
+//
+//  Created by ganshunwei on 16/5/28.
+//  Copyright © 2016年 ganshunwei. All rights reserved.
+//
+
+#ifndef MSPrefixHeader_pch
+#define MSPrefixHeader_pch
+
+#ifdef __OBJC__
+
+//基础库
+#import <MSFoundation/MSCONSTANT.h>
+
+//项目宏
+#import "marco.h"
+
+//类别
+#import "MSCategory.h"
+
+#endif
+
+#endif /* MSPrefixHeader_pch */
