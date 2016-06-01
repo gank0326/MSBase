@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MSLaunchHelper.h"
+#import "MSPushService.h"
 
 @interface AppDelegate ()
 
@@ -28,6 +29,9 @@
     
     //加载管理
     [MSLaunchHelper install:self.window];
+    
+    //极光推送
+    [MSPushService install:launchOptions];
     
     return YES;
 }

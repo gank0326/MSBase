@@ -24,6 +24,8 @@ _Pragma("clang diagnostic pop") \
 #import "MSNavigationController.h"
 #import <UMMobClick/MobClick.h>
 #import "CocoaLumberjack.h"
+#import "JPEngine.h"
+#import "JPUSHService.h"
 
 
 

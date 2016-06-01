@@ -10,6 +10,8 @@
 #import "MSNavigationController.h"
 #import "MSUserInfo.h"
 #import "MSLogHelper.h"
+#import "MSAnalyticsManager.h"
+#import "MSHotUpdateManager.h"
 
 @interface MSLaunchHelper ()
 
@@ -40,6 +42,23 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
     
     //日志打印
     [MSLogHelper install];
+    
+    //友盟统计
+    [MSAnalyticsManager install];
+    
+    //热更新
+    [MSHotUpdateManager install];
+    
+    //引导页
+    NSMutableArray *guideArr = [NSMutableArray new];
+    for (int i = 0; i < 3; i++) {
+        NSString *imageName = [NSString stringWithFormat:@"welcome%d", i + 1];
+        [guideArr addObject:imageName];
+    }
+    [MSHelper loadGuideViewToView:self.window
+                             imageArr:guideArr
+                        pageIconImage:nil
+                pageSelectedIconImage:nil];
     
     //开机响应
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidFinishLaunchingNotification:) name:UIApplicationDidFinishLaunchingNotification object:nil];

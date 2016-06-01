@@ -25,4 +25,7 @@ SB_ARC_SINGLETON_DEFINE(MSUserInfo)
 /**更新登录状态*/
 + (void)updateLoginState:(BOOL)logined;
 
++ (NSString *)userToken;
+
 @end
+

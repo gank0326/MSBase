@@ -31,6 +31,10 @@
 		95BD71C81CFE89050001ED50 /* MSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71C71CFE89050001ED50 /* MSTabBarController.m */; };
 		95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CA1CFE8A6B0001ED50 /* MSNavigationBar.m */; };
 		95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CD1CFE8FC30001ED50 /* MSUtil.m */; };
+		95BD71D21CFEAECC0001ED50 /* MSAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */; };
+		95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */; };
+		95BD71D81CFEB3B60001ED50 /* MSPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D71CFEB3B60001ED50 /* MSPushService.m */; };
+		95BD71DA1CFEB8D70001ED50 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 95BD71D91CFEB8D70001ED50 /* demo.js */; };
 		D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BA59A261A63E6CED2A6ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +90,13 @@
 		95BD71CC1CFE8FC30001ED50 /* MSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUtil.h; sourceTree = "<group>"; };
 		95BD71CD1CFE8FC30001ED50 /* MSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUtil.m; sourceTree = "<group>"; };
 		95BD71CF1CFEA6300001ED50 /* MSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDefine.h; sourceTree = "<group>"; };
+		95BD71D01CFEAECC0001ED50 /* MSAnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAnalyticsManager.h; sourceTree = "<group>"; };
+		95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAnalyticsManager.m; sourceTree = "<group>"; };
+		95BD71D31CFEB12B0001ED50 /* MSHotUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHotUpdateManager.h; sourceTree = "<group>"; };
+		95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHotUpdateManager.m; sourceTree = "<group>"; };
+		95BD71D61CFEB3B60001ED50 /* MSPushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPushService.h; sourceTree = "<group>"; };
+		95BD71D71CFEB3B60001ED50 /* MSPushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPushService.m; sourceTree = "<group>"; };
+		95BD71D91CFEB8D70001ED50 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
 		95FA69A61CF99E3A0006F5A0 /* MSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPrefixHeader.pch; sourceTree = "<group>"; };
 		AD8BA59A261A63E6CED2A6ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -152,6 +163,7 @@
 		9533171E1CF5C70D00890E4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95BD71D91CFEB8D70001ED50 /* demo.js */,
 				9533171F1CF5C70D00890E4F /* main.m */,
 				95FA69A61CF99E3A0006F5A0 /* MSPrefixHeader.pch */,
 			);
@@ -234,6 +246,12 @@
 		954EDD3C1CFC126A009B1038 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				95BD71D01CFEAECC0001ED50 /* MSAnalyticsManager.h */,
+				95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */,
+				95BD71D31CFEB12B0001ED50 /* MSHotUpdateManager.h */,
+				95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */,
+				95BD71D61CFEB3B60001ED50 /* MSPushService.h */,
+				95BD71D71CFEB3B60001ED50 /* MSPushService.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -393,6 +411,7 @@
 				9533172E1CF5C70D00890E4F /* LaunchScreen.storyboard in Resources */,
 				9533172B1CF5C70D00890E4F /* Assets.xcassets in Resources */,
 				953317291CF5C70D00890E4F /* Main.storyboard in Resources */,
+				95BD71DA1CFEB8D70001ED50 /* demo.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,8 +470,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BD71D21CFEAECC0001ED50 /* MSAnalyticsManager.m in Sources */,
 				954EDD481CFC1F46009B1038 /* MSViewController.m in Sources */,
 				954EDD671CFC34D7009B1038 /* MSLogHelper.m in Sources */,
+				95BD71D81CFEB3B60001ED50 /* MSPushService.m in Sources */,
 				953317261CF5C70D00890E4F /* ViewController.m in Sources */,
 				954EDD561CFC23D2009B1038 /* MSUserInfo.m in Sources */,
 				954EDD5F1CFC28B2009B1038 /* MSLoginViewController.m in Sources */,
@@ -466,6 +487,7 @@
 				95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */,
 				95BD71C21CFE87F80001ED50 /* MSHelper+Navigation.m in Sources */,
 				95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */,
+				95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */,
 				954EDD4B1CFC1FE5009B1038 /* MSNavigationController.m in Sources */,
 				95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */,
 				95BD71C81CFE89050001ED50 /* MSTabBarController.m in Sources */,
@@ -620,8 +642,9 @@
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = msinfo.MSBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.MSBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
 			};
 			name = Debug;
@@ -666,8 +689,9 @@
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = msinfo.MSBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.MSBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
 			};
 			name = Release;

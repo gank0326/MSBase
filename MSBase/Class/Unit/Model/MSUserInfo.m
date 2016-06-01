@@ -32,4 +32,7 @@ SB_ARC_SINGLETON_IMPLEMENT(MSUserInfo)
     
 }
 
++ (NSString *)userToken {
+    return @"21";
+}
 @end
