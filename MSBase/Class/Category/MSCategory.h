@@ -12,5 +12,10 @@
 #import "UIColor+MS.h"
 #import "MSHelper+Navigation.h"
 #import "MSHelper+UIBarButtonItem.h"
+#import "UIImage-Helpers.h"
+#import "UIViewController+Popup.h"
+#import "UIActionSheet+Block.h"
+#import "UIAlertView+Block.h"
+#import "UIButton+Timer.h"
 
 #endif /* MSCategory_h */
