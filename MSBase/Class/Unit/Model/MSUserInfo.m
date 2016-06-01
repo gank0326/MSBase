@@ -24,7 +24,7 @@ SB_ARC_SINGLETON_IMPLEMENT(MSUserInfo)
 
 /**登录状态*/
 + (BOOL)hasLogined {
-    return NO;
+    return YES;
 }
 
 /**更新登录状态*/

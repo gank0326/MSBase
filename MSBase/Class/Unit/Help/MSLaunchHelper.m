@@ -103,13 +103,6 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
     return [DataItemDetail new];
 }
 
-//tab界面
-- (UIViewController *)mainTabCtrl {
-    MSURLAction *tAction = [MSURLAction actionWithClassName:@"ViewController"];
-    UIViewController *tCtrl = [MSURLAction sb_initCtrl:tAction];
-    return tCtrl;
-}
-
 //登录界面
 - (MSNavigationController *)loginCtrl {
     MSURLAction *lAction = [MSURLAction actionWithClassName:@"MSLoginViewController"];
@@ -124,7 +117,7 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
     if (![MSUserInfo hasLogined]) {
         ctrl = [self loginCtrl];
     }else {
-        ctrl = [self mainTabCtrl];
+        ctrl = [MSHelper getRootViewController];//tab界面
     }
     self.window.rootViewController = ctrl;
     [self.window makeKeyAndVisible];

@@ -29,8 +29,9 @@
 
 +(void)loadGuideViewToView:(UIWindow*)applicationWindown imageArr:(NSArray*)imageArr pageIconImage:(UIImage*)iconImage pageSelectedIconImage:(UIImage*)selectedIconImage
 {
-    NSString *FirstUsedApp =[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    if (![[NSUserDefaults standardUserDefaults] boolForKey:FirstUsedApp])
+    NSString *shortVersionKey = [MSAppCoreInfo shortVersionString];
+    NSInteger showWelcome = [[MSAppCoreInfo getCoreDB] getIntValue:kShowWelcomePage dataKey:shortVersionKey];
+    if (showWelcome != 1)
     {
         MSGuideView *guideView = [[MSGuideView alloc]initWithFrame:applicationWindown.frame];
         [guideView initSubviews:applicationWindown picArr:imageArr pageIcon:iconImage pageSelectedIcon:selectedIconImage];
