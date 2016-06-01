@@ -10,4 +10,9 @@
 
 @interface MSNavigationController : UINavigationController
 
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated completion:(dispatch_block_t)completion;
+
+- (UIViewController *)showingTopViewController;
+
+
 @end

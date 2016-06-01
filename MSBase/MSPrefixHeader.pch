@@ -20,6 +20,15 @@
 //类别
 #import "MSCategory.h"
 
+//动画库
+#import <pop/POP.h>
+
+//三方 设备判断
+#import "SDiPhoneVersion.h"
+
+//三方 布局
+#import "Masonry.h"
+
 #endif
 
 #endif /* MSPrefixHeader_pch */

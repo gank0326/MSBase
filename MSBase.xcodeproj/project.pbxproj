@@ -23,6 +23,14 @@
 		954EDD641CFC3466009B1038 /* MSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954EDD631CFC3466009B1038 /* MSFoundation.framework */; };
 		954EDD671CFC34D7009B1038 /* MSLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD661CFC34D7009B1038 /* MSLogHelper.m */; };
 		954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD6A1CFC3A48009B1038 /* TestViewController.m */; };
+		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
+		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
+		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
+		95BD71C21CFE87F80001ED50 /* MSHelper+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71C11CFE87F80001ED50 /* MSHelper+Navigation.m */; };
+		95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71C41CFE88100001ED50 /* MSHelper+UIBarButtonItem.m */; };
+		95BD71C81CFE89050001ED50 /* MSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71C71CFE89050001ED50 /* MSTabBarController.m */; };
+		95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CA1CFE8A6B0001ED50 /* MSNavigationBar.m */; };
+		95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CD1CFE8FC30001ED50 /* MSUtil.m */; };
 		D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BA59A261A63E6CED2A6ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +69,23 @@
 		954EDD681CFC3842009B1038 /* MSURLActionDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSURLActionDefinition.h; sourceTree = "<group>"; };
 		954EDD691CFC3A48009B1038 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		954EDD6A1CFC3A48009B1038 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
+		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
+		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
+		95BD71BB1CFE87710001ED50 /* MSGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGuideView.m; sourceTree = "<group>"; };
+		95BD71BC1CFE87710001ED50 /* MSMyPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMyPageControl.h; sourceTree = "<group>"; };
+		95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMyPageControl.m; sourceTree = "<group>"; };
+		95BD71C01CFE87F80001ED50 /* MSHelper+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSHelper+Navigation.h"; sourceTree = "<group>"; };
+		95BD71C11CFE87F80001ED50 /* MSHelper+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSHelper+Navigation.m"; sourceTree = "<group>"; };
+		95BD71C31CFE88100001ED50 /* MSHelper+UIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSHelper+UIBarButtonItem.h"; sourceTree = "<group>"; };
+		95BD71C41CFE88100001ED50 /* MSHelper+UIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSHelper+UIBarButtonItem.m"; sourceTree = "<group>"; };
+		95BD71C61CFE89050001ED50 /* MSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTabBarController.h; sourceTree = "<group>"; };
+		95BD71C71CFE89050001ED50 /* MSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTabBarController.m; sourceTree = "<group>"; };
+		95BD71C91CFE8A6B0001ED50 /* MSNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNavigationBar.h; sourceTree = "<group>"; };
+		95BD71CA1CFE8A6B0001ED50 /* MSNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNavigationBar.m; sourceTree = "<group>"; };
+		95BD71CC1CFE8FC30001ED50 /* MSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUtil.h; sourceTree = "<group>"; };
+		95BD71CD1CFE8FC30001ED50 /* MSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUtil.m; sourceTree = "<group>"; };
+		95BD71CF1CFEA6300001ED50 /* MSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDefine.h; sourceTree = "<group>"; };
 		95FA69A61CF99E3A0006F5A0 /* MSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPrefixHeader.pch; sourceTree = "<group>"; };
 		AD8BA59A261A63E6CED2A6ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,6 +189,10 @@
 				954EDD4E1CFC20E5009B1038 /* UIColor+MS.m */,
 				954EDD601CFC2DAC009B1038 /* UIViewController+Tracking.h */,
 				954EDD611CFC2DAC009B1038 /* UIViewController+Tracking.m */,
+				95BD71C01CFE87F80001ED50 /* MSHelper+Navigation.h */,
+				95BD71C11CFE87F80001ED50 /* MSHelper+Navigation.m */,
+				95BD71C31CFE88100001ED50 /* MSHelper+UIBarButtonItem.h */,
+				95BD71C41CFE88100001ED50 /* MSHelper+UIBarButtonItem.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -173,6 +202,7 @@
 			children = (
 				954EDD501CFC2142009B1038 /* marco.h */,
 				954EDD681CFC3842009B1038 /* MSURLActionDefinition.h */,
+				95BD71CF1CFEA6300001ED50 /* MSDefine.h */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -195,6 +225,8 @@
 				954EDD431CFC135E009B1038 /* MSLaunchHelper.m */,
 				954EDD651CFC34D7009B1038 /* MSLogHelper.h */,
 				954EDD661CFC34D7009B1038 /* MSLogHelper.m */,
+				95BD71B61CFE85D60001ED50 /* MSHelper.h */,
+				95BD71B71CFE85D60001ED50 /* MSHelper.m */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -209,6 +241,8 @@
 		954EDD3D1CFC126A009B1038 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				95BD71CC1CFE8FC30001ED50 /* MSUtil.h */,
+				95BD71CD1CFE8FC30001ED50 /* MSUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -216,6 +250,7 @@
 		954EDD3E1CFC126A009B1038 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				95BD71B91CFE87710001ED50 /* guide */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -235,6 +270,10 @@
 				954EDD471CFC1F46009B1038 /* MSViewController.m */,
 				954EDD491CFC1FE5009B1038 /* MSNavigationController.h */,
 				954EDD4A1CFC1FE5009B1038 /* MSNavigationController.m */,
+				95BD71C61CFE89050001ED50 /* MSTabBarController.h */,
+				95BD71C71CFE89050001ED50 /* MSTabBarController.m */,
+				95BD71C91CFE8A6B0001ED50 /* MSNavigationBar.h */,
+				95BD71CA1CFE8A6B0001ED50 /* MSNavigationBar.m */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -269,6 +308,17 @@
 			children = (
 			);
 			path = Me;
+			sourceTree = "<group>";
+		};
+		95BD71B91CFE87710001ED50 /* guide */ = {
+			isa = PBXGroup;
+			children = (
+				95BD71BA1CFE87710001ED50 /* MSGuideView.h */,
+				95BD71BB1CFE87710001ED50 /* MSGuideView.m */,
+				95BD71BC1CFE87710001ED50 /* MSMyPageControl.h */,
+				95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */,
+			);
+			path = guide;
 			sourceTree = "<group>";
 		};
 		B316B458E38F65BBE58E6820 /* Pods */ = {
@@ -406,11 +456,19 @@
 				953317261CF5C70D00890E4F /* ViewController.m in Sources */,
 				954EDD561CFC23D2009B1038 /* MSUserInfo.m in Sources */,
 				954EDD5F1CFC28B2009B1038 /* MSLoginViewController.m in Sources */,
+				95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */,
+				95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */,
 				953317231CF5C70D00890E4F /* AppDelegate.m in Sources */,
 				954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */,
 				954EDD621CFC2DAC009B1038 /* UIViewController+Tracking.m in Sources */,
+				95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */,
 				954EDD4F1CFC20E5009B1038 /* UIColor+MS.m in Sources */,
+				95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */,
+				95BD71C21CFE87F80001ED50 /* MSHelper+Navigation.m in Sources */,
+				95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */,
 				954EDD4B1CFC1FE5009B1038 /* MSNavigationController.m in Sources */,
+				95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */,
+				95BD71C81CFE89050001ED50 /* MSTabBarController.m in Sources */,
 				954EDD441CFC135E009B1038 /* MSLaunchHelper.m in Sources */,
 				953317201CF5C70D00890E4F /* main.m in Sources */,
 			);

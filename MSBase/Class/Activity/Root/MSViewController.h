@@ -11,6 +11,22 @@
 @interface MSViewController : UIViewController
 
 /** 返回上一级 (已经实现，有特殊要求可以重写)*/
-- (void)sbCtrlPopNav:(id)sender;
+- (void)popupMyself;
+
+@property (nonatomic) BOOL autoCreateBackButtonItem;
+
+@property (nonatomic) BOOL animating;
+
+@property (nonatomic) BOOL isAppear;
+
+- (void)setTitleView:(UIView *)titleView;
+
+- (void)setNavLeftBarButtonItem:(UIBarButtonItem *)item;
+
+- (void)setNavRightBarButtonItem:(UIBarButtonItem *)item;
+
+- (UIBarButtonItem *)currentLeftUIBarButtonItem;
+
+- (void)willPopupFromNavigation;
 
 @end

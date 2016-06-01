@@ -17,6 +17,8 @@ Stuff; \
 _Pragma("clang diagnostic pop") \
 } while (0)
 
+//常用宏定义
+#import "MSDefine.h"
 
 #import "MSViewController.h"
 #import "MSNavigationController.h"
@@ -27,6 +29,8 @@ _Pragma("clang diagnostic pop") \
 
 //跳转
 #import "MSURLActionDefinition.h"
+#import "MSHelper.h"
+#import "MSUtil.h"
 
 #ifdef DEBUG
 static DDLogLevel ddLogLevel = DDLogLevelVerbose;

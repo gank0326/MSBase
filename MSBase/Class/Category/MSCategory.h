@@ -10,5 +10,7 @@
 #define MSCategory_h
 
 #import "UIColor+MS.h"
+#import "MSHelper+Navigation.h"
+#import "MSHelper+UIBarButtonItem.h"
 
 #endif /* MSCategory_h */
