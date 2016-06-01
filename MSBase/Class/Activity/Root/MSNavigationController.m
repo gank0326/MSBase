@@ -35,8 +35,8 @@
     [super viewDidLoad];
     [self changeSkin];
     self.navigationBar.translucent = NO;
+    WS(weakSelf)
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
-        __weak MSNavigationController *weakSelf = self;
         self.interactivePopGestureRecognizer.delegate = weakSelf;
     }
     self.delegate = self;
