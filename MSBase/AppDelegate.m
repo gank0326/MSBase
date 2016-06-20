@@ -23,10 +23,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];         //不设置 很多隐藏tab的界面会有黑条
     
-    //开机动效
-#warning 动效效果暂缓
-    [self handleLaunchScreen];
-    
     //加载管理
     [MSLaunchHelper install:self.window];
     
@@ -87,29 +83,4 @@
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
     return [MSLaunchHelper openURL:url];
 }
-
-#pragma mark - Self Manage Method
-
-- (void)handleLaunchScreen {
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
-    
-    //    UIViewController *viewController = [[UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil] instantiateViewControllerWithIdentifier:@"ELLaunchScreen"];
-    //
-    //    UIView *launchView = viewController.view;
-    //    UIWindow *mainWindow = self.window;//[UIApplication sharedApplication].keyWindow;
-    //    launchView.frame = [UIApplication sharedApplication].keyWindow.frame;
-    //    [mainWindow addSubview:launchView];
-    //
-    //    [UIView animateWithDuration:1.6 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-    //        launchView.alpha = 0.0f;
-    //        launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, 1.5f, 1.5f, 1.0f);
-    //    } completion:^(BOOL finished) {
-    //        if (finished) {
-    //            [launchView removeFromSuperview];
-    //            [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
-    //        }
-    //    }];
-}
-
-
 @end

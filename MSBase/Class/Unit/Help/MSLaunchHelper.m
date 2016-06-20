@@ -12,6 +12,7 @@
 #import "MSLogHelper.h"
 #import "MSAnalyticsManager.h"
 #import "MSHotUpdateManager.h"
+#import "MSHttpConfig.h"
 
 @interface MSLaunchHelper ()
 
@@ -48,6 +49,9 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
     
     //热更新
     [MSHotUpdateManager install];
+    
+    //网络请求配置
+    [MSHttpConfig install];
     
     //引导页
     NSMutableArray *guideArr = [NSMutableArray new];
