@@ -37,14 +37,14 @@ PODS:
   - JSPatch/Core (1.0)
   - Masonry (1.0.1)
   - MJExtension (3.0.10)
-  - MJRefresh (3.1.0)
+  - MJRefresh (3.1.7)
   - pop (1.0.9)
   - SDCycleScrollView (1.65):
     - SDWebImage (~> 3.7)
   - SDiPhoneVersion (1.1.2)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
   - UICKeyChainStore (2.1.0)
   - UIViewController+Swizzled (1.4)
   - UIViewController-KeyboardAdditions (1.2)
@@ -82,11 +82,11 @@ SPEC CHECKSUMS:
   JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
-  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MJRefresh: f67f0750d57a4e4ae433da549359ca53b52cdc7d
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDiPhoneVersion: c52245ccaab8142701e2e7fb8f0391ba3f255b76
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
   UIViewController+Swizzled: 1cd9397598ede6930f94fbcac4b43d63c7aa0dbb
   UIViewController-KeyboardAdditions: 9c9c69a012890f71010dc7ffef18d98e4e0768d2
