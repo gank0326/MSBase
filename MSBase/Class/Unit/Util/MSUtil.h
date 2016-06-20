@@ -86,4 +86,13 @@ CG_INLINE SLSuitableRectInput SLSuitableRectInputMake(CGFloat totalWidth, CGFloa
  *  @param cornerRadii 角度
  */
 + (void)addCornerRadiusWith:(UIView *)view byRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii;
+
+/**
+ *  网络请求公共参数
+ *
+ *  @param body 原参数
+ *
+ *  @return 加上公共参数后的新参数
+ */
++(NSMutableDictionary *)requestArgumentWithBody:(NSDictionary *)body;
 @end

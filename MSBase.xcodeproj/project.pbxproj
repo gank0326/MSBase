@@ -52,6 +52,7 @@
 		95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD720D1CFECC840001ED50 /* MSFirstViewController.m */; };
 		95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72111CFED16D0001ED50 /* MSRequest.m */; };
 		95DB48A21D17C5A900F03324 /* MSHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A11D17C5A900F03324 /* MSHttpConfig.m */; };
+		95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A41D17CDEB00F03324 /* MSHttpProcess.m */; };
 		D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BA59A261A63E6CED2A6ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +150,8 @@
 		95BD72111CFED16D0001ED50 /* MSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRequest.m; sourceTree = "<group>"; };
 		95DB48A01D17C5A900F03324 /* MSHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHttpConfig.h; sourceTree = "<group>"; };
 		95DB48A11D17C5A900F03324 /* MSHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHttpConfig.m; sourceTree = "<group>"; };
+		95DB48A31D17CDEB00F03324 /* MSHttpProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHttpProcess.h; sourceTree = "<group>"; };
+		95DB48A41D17CDEB00F03324 /* MSHttpProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHttpProcess.m; sourceTree = "<group>"; };
 		95FA69A61CF99E3A0006F5A0 /* MSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPrefixHeader.pch; sourceTree = "<group>"; };
 		AD8BA59A261A63E6CED2A6ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -438,6 +441,8 @@
 			children = (
 				95BD72101CFED16D0001ED50 /* MSRequest.h */,
 				95BD72111CFED16D0001ED50 /* MSRequest.m */,
+				95DB48A31D17CDEB00F03324 /* MSHttpProcess.h */,
+				95DB48A41D17CDEB00F03324 /* MSHttpProcess.m */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -598,6 +603,7 @@
 				95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */,
 				95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */,
 				95BD71DD1CFEBA7C0001ED50 /* UIViewController+Popup.m in Sources */,
+				95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */,
 				95BD71C21CFE87F80001ED50 /* MSHelper+Navigation.m in Sources */,
 				95BD72091CFEBBD50001ED50 /* UIButton+Timer.m in Sources */,
 				95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */,

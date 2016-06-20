@@ -27,6 +27,9 @@ _Pragma("clang diagnostic pop") \
 #import "MSHelper.h"
 #import "MSUtil.h"
 
+//网络请求
+#import "MSHttpProcess.h"
+
 #ifdef DEBUG
 static DDLogLevel ddLogLevel = DDLogLevelVerbose;
 #else

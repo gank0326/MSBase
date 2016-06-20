@@ -68,4 +68,17 @@
     view.layer.mask = maskLayer;
     view.layer.masksToBounds = YES;
 }
+
++(NSMutableDictionary *)requestArgumentWithBody:(NSDictionary *)body
+{
+    // 增加默认参数
+    NSMutableDictionary *requestArgument= [[NSMutableDictionary alloc] initWithDictionary:body];
+    requestArgument[@"platform"] = @"ios";
+    requestArgument[@"sys_version"] = [[UIDevice currentDevice] systemVersion];
+    requestArgument[@"soft_version"] = [MSAppCoreInfo shortVersionString];
+    requestArgument[@"screen"] = [NSString stringWithFormat:@"%@*%@", @(SCREEN_WIDTH*2), @(SCREEN_HEIGHT*2)];
+    //    requestArgument[@"signature"] = [JCViewUtil generateRequestSignature:requestArgument];
+    return requestArgument;
+}
+
 @end
