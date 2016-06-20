@@ -50,6 +50,7 @@
 		95BD72091CFEBBD50001ED50 /* UIButton+Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72061CFEBBD50001ED50 /* UIButton+Timer.m */; };
 		95BD720B1CFECC210001ED50 /* MSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BD720A1CFECC210001ED50 /* MSFoundation.framework */; };
 		95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD720D1CFECC840001ED50 /* MSFirstViewController.m */; };
+		95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72111CFED16D0001ED50 /* MSRequest.m */; };
 		D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BA59A261A63E6CED2A6ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +144,8 @@
 		95BD720A1CFECC210001ED50 /* MSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSFoundation.framework; sourceTree = "<group>"; };
 		95BD720C1CFECC840001ED50 /* MSFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFirstViewController.h; sourceTree = "<group>"; };
 		95BD720D1CFECC840001ED50 /* MSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFirstViewController.m; sourceTree = "<group>"; };
+		95BD72101CFED16D0001ED50 /* MSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRequest.h; sourceTree = "<group>"; };
+		95BD72111CFED16D0001ED50 /* MSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRequest.m; sourceTree = "<group>"; };
 		95FA69A61CF99E3A0006F5A0 /* MSPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPrefixHeader.pch; sourceTree = "<group>"; };
 		AD8BA59A261A63E6CED2A6ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -277,6 +280,7 @@
 		954EDD3A1CFC126A009B1038 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
+				95BD720F1CFED0FE0001ED50 /* Http */,
 				954EDD531CFC23B6009B1038 /* Model */,
 				954EDD3B1CFC126A009B1038 /* Help */,
 				954EDD3C1CFC126A009B1038 /* Manager */,
@@ -422,6 +426,15 @@
 				95BD71F31CFEBAEE0001ED50 /* UIImage-Helpers.h */,
 			);
 			path = "UIImage-Helpers";
+			sourceTree = "<group>";
+		};
+		95BD720F1CFED0FE0001ED50 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				95BD72101CFED16D0001ED50 /* MSRequest.h */,
+				95BD72111CFED16D0001ED50 /* MSRequest.m */,
+			);
+			path = Http;
 			sourceTree = "<group>";
 		};
 		B316B458E38F65BBE58E6820 /* Pods */ = {
@@ -571,6 +584,7 @@
 				95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */,
 				953317231CF5C70D00890E4F /* AppDelegate.m in Sources */,
 				954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */,
+				95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */,
 				954EDD621CFC2DAC009B1038 /* UIViewController+Tracking.m in Sources */,
 				95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */,
 				954EDD4F1CFC20E5009B1038 /* UIColor+MS.m in Sources */,
@@ -707,6 +721,7 @@
 			baseConfigurationReference = 6B8647F169AC0B37B6A2C6AD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -742,7 +757,7 @@
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.MSBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.sz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
@@ -754,6 +769,7 @@
 			baseConfigurationReference = 89068A1DE50ED0F9CAAC5DEE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -789,7 +805,7 @@
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.MSBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.sz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
