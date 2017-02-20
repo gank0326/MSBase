@@ -491,6 +491,7 @@
 					9533171A1CF5C70D00890E4F = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = FYVTKDVH58;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -773,6 +774,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.12320;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "48805154-0f17-477b-9183-1684401bd22f";
+				PROVISIONING_PROFILE_SPECIFIER = Mongolia12320_devPro;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
 			};
@@ -784,6 +787,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = FYVTKDVH58;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -822,6 +826,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.12320;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f945781-8e03-418d-8ed6-99ab96586af5";
+				PROVISIONING_PROFILE_SPECIFIER = 12320_hoc;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"";
 			};
