@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9505CA771E5DB6580064562C /* libPods-MSBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD86BD6B8974CB61951BFCE /* libPods-MSBase.a */; };
 		953317201CF5C70D00890E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9533171F1CF5C70D00890E4F /* main.m */; };
 		953317231CF5C70D00890E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953317221CF5C70D00890E4F /* AppDelegate.m */; };
 		953317261CF5C70D00890E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953317251CF5C70D00890E4F /* ViewController.m */; };
@@ -53,12 +54,14 @@
 		95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72111CFED16D0001ED50 /* MSRequest.m */; };
 		95DB48A21D17C5A900F03324 /* MSHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A11D17C5A900F03324 /* MSHttpConfig.m */; };
 		95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A41D17CDEB00F03324 /* MSHttpProcess.m */; };
-		D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BA59A261A63E6CED2A6ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230D6C2333F43A559E1720D4 /* Pods-MSBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSBase/Pods-MSBase.debug.xcconfig"; sourceTree = "<group>"; };
+		423A637A79D62E2A0EFF41F7 /* Pods-MSBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSBase/Pods-MSBase.release.xcconfig"; sourceTree = "<group>"; };
 		6B8647F169AC0B37B6A2C6AD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		89068A1DE50ED0F9CAAC5DEE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8CD86BD6B8974CB61951BFCE /* libPods-MSBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9533171B1CF5C70D00890E4F /* MSBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9533171F1CF5C70D00890E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		953317211CF5C70D00890E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -161,7 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */,
+				9505CA771E5DB6580064562C /* libPods-MSBase.a in Frameworks */,
 				95BD720B1CFECC210001ED50 /* MSFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				AD8BA59A261A63E6CED2A6ED /* libPods.a */,
+				8CD86BD6B8974CB61951BFCE /* libPods-MSBase.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -452,6 +456,8 @@
 			children = (
 				6B8647F169AC0B37B6A2C6AD /* Pods.debug.xcconfig */,
 				89068A1DE50ED0F9CAAC5DEE /* Pods.release.xcconfig */,
+				230D6C2333F43A559E1720D4 /* Pods-MSBase.debug.xcconfig */,
+				423A637A79D62E2A0EFF41F7 /* Pods-MSBase.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -463,12 +469,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 953317321CF5C70D00890E4F /* Build configuration list for PBXNativeTarget "MSBase" */;
 			buildPhases = (
-				3846B3FC1D8DAB2BD0670E1C /* Check Pods Manifest.lock */,
+				3846B3FC1D8DAB2BD0670E1C /* [CP] Check Pods Manifest.lock */,
 				953317171CF5C70D00890E4F /* Sources */,
 				953317181CF5C70D00890E4F /* Frameworks */,
 				953317191CF5C70D00890E4F /* Resources */,
-				92D253FE82C8F1109E554791 /* Embed Pods Frameworks */,
-				87719CD37B53E26DFC52E12C /* Copy Pods Resources */,
+				92D253FE82C8F1109E554791 /* [CP] Embed Pods Frameworks */,
+				87719CD37B53E26DFC52E12C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -527,49 +533,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3846B3FC1D8DAB2BD0670E1C /* Check Pods Manifest.lock */ = {
+		3846B3FC1D8DAB2BD0670E1C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		87719CD37B53E26DFC52E12C /* Copy Pods Resources */ = {
+		87719CD37B53E26DFC52E12C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSBase/Pods-MSBase-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		92D253FE82C8F1109E554791 /* Embed Pods Frameworks */ = {
+		92D253FE82C8F1109E554791 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSBase/Pods-MSBase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -731,7 +737,7 @@
 		};
 		953317331CF5C70D00890E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B8647F169AC0B37B6A2C6AD /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 230D6C2333F43A559E1720D4 /* Pods-MSBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -764,13 +770,66 @@
 					"\"${PODS_ROOT}/Headers/Public/UIViewController-KeyboardAdditions\"",
 					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
 					"\"${PODS_ROOT}/Headers/Public/XTSafeCollection\"",
-					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 					"\"${PODS_ROOT}/Headers/Public/pop\"",
 					"$(PROJECT_DIR)/MSBase/framework/MSFoundation.framework/Headers",
+					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 				);
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"CocoaLumberjack\"",
+					"-l\"DZNEmptyDataSet\"",
+					"-l\"JSPatch\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"SDiPhoneVersion\"",
+					"-l\"UICKeyChainStore\"",
+					"-l\"UIViewController+Swizzled\"",
+					"-l\"UIViewController-KeyboardAdditions\"",
+					"-l\"XTSafeCollection\"",
+					"-l\"YTKNetwork\"",
+					"-l\"c++\"",
+					"-l\"jcore-ios-1.1.1\"",
+					"-l\"jpush-ios-3.0.2\"",
+					"-l\"pop\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -780,7 +839,7 @@
 		};
 		953317341CF5C70D00890E4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89068A1DE50ED0F9CAAC5DEE /* Pods.release.xcconfig */;
+			baseConfigurationReference = 423A637A79D62E2A0EFF41F7 /* Pods-MSBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -813,13 +872,65 @@
 					"\"${PODS_ROOT}/Headers/Public/UIViewController-KeyboardAdditions\"",
 					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
 					"\"${PODS_ROOT}/Headers/Public/XTSafeCollection\"",
-					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 					"\"${PODS_ROOT}/Headers/Public/pop\"",
 					"$(PROJECT_DIR)/MSBase/framework/MSFoundation.framework/Headers",
+					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 				);
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"CocoaLumberjack\"",
+					"-l\"DZNEmptyDataSet\"",
+					"-l\"JSPatch\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"SDiPhoneVersion\"",
+					"-l\"UICKeyChainStore\"",
+					"-l\"UIViewController+Swizzled\"",
+					"-l\"UIViewController-KeyboardAdditions\"",
+					"-l\"XTSafeCollection\"",
+					"-l\"YTKNetwork\"",
+					"-l\"c++\"",
+					"-l\"jcore-ios-1.1.1\"",
+					"-l\"jpush-ios-3.0.2\"",
+					"-l\"pop\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msinfo.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

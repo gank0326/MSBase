@@ -17,10 +17,10 @@ SB_ARC_SINGLETON_IMPLEMENT(MSHttpConfig)
 
 + (void)install {
     
-    YTKNetworkAgent *agent = [YTKNetworkAgent sharedInstance];
+    YTKNetworkAgent *agent = [YTKNetworkAgent sharedAgent];
     [agent setValue:[NSSet setWithObjects:@"application/json", @"text/plain", @"text/javascript", @"text/json", @"text/html", nil]
          forKeyPath:@"_manager.responseSerializer.acceptableContentTypes"];
-    YTKNetworkConfig *ytkNetworkConfig = [YTKNetworkConfig sharedInstance];
+    YTKNetworkConfig *ytkNetworkConfig = [YTKNetworkConfig sharedConfig];
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     [ytkNetworkConfig setBaseUrl:API_BASE_URL];
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];

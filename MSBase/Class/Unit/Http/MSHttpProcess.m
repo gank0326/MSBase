@@ -13,7 +13,7 @@
 +(MSRequest *)ms_loginmobile:(NSString *)mobile password:(NSString *)pwd {
     
     MSRequest *login = [MSRequest new];
-    login.methodType = YTKRequestMethodPost;
+    login.methodType = YTKRequestMethodPOST;
     login.methodUrl = kSignIn;
     login.argument = @{@"mobile":mobile,@"password":pwd};
     return login;
