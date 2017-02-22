@@ -3,6 +3,8 @@ platform:ios,’8.0’
 inhibit_all_warnings!
 target “MSBase”
 
+#友盟分享 友盟统计
+pod 'UMengSocialCOM', '~> 5.2.1'
 pod 'UMengAnalytics-NO-IDFA'
 pod 'UIViewController+Swizzled'
 pod 'Masonry'

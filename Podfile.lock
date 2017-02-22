@@ -43,6 +43,7 @@ PODS:
   - UIViewController+Swizzled (1.4)
   - UIViewController-KeyboardAdditions (1.2)
   - UMengAnalytics-NO-IDFA (4.2.5)
+  - UMengSocialCOM (5.2.1)
   - XTSafeCollection (1.0.5)
   - YTKNetwork (2.0.3):
     - AFNetworking (~> 3.0)
@@ -63,6 +64,7 @@ DEPENDENCIES:
   - UIViewController+Swizzled
   - UIViewController-KeyboardAdditions
   - UMengAnalytics-NO-IDFA
+  - UMengSocialCOM (~> 5.2.1)
   - XTSafeCollection
   - YTKNetwork
 
@@ -84,9 +86,10 @@ SPEC CHECKSUMS:
   UIViewController+Swizzled: 1cd9397598ede6930f94fbcac4b43d63c7aa0dbb
   UIViewController-KeyboardAdditions: 9c9c69a012890f71010dc7ffef18d98e4e0768d2
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
   XTSafeCollection: c76a5d96f5c68457055ca4b35df7fbe97532d235
   YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
 
-PODFILE CHECKSUM: 9281c74b7be137717aa15425a5d98b4a536d653f
+PODFILE CHECKSUM: a20996d0c60c2aee00a2dd9593aff3b04f6dfd09
 
 COCOAPODS: 1.1.0.rc.2
