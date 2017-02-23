@@ -22,6 +22,25 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>EL3rdConfig</key>
+	<dict>
+		<key>qqAppId</key>
+		<string>5</string>
+		<key>qqAppSecret</key>
+		<string>6</string>
+		<key>qqURL</key>
+		<string>http://www.baidu.com</string>
+		<key>sinaWeiboAppId</key>
+		<string>3</string>
+		<key>sinaWeiboAppSecret</key>
+		<string>4</string>
+		<key>sinaWeiboURL</key>
+		<string>http://www.baidu.com</string>
+		<key>wxAppId</key>
+		<string>1</string>
+		<key>wxAppSecret</key>
+		<string>2</string>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>

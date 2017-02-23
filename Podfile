@@ -1,7 +1,13 @@
 platform:ios,’8.0’
-inhibit_all_warnings!
 
+inhibit_all_warnings!
+target “MSBase”
+
+#友盟分享 友盟统计
+pod 'UMengSocialCOM', '~> 5.2.1'
 pod 'UMengAnalytics-NO-IDFA'
+#WebView进度
+pod 'NJKWebViewProgress', '~> 0.2.3'
 pod 'UIViewController+Swizzled'
 pod 'Masonry'
 pod 'YTKNetwork'
@@ -18,6 +24,8 @@ pod 'XTSafeCollection'
 pod 'JPush'
 pod 'JSPatch'
 pod 'DZNEmptyDataSet'
+#EM私有库
+#pod 'SBLib',:git=>"https://github.com/doll313/SBLib", :tag => '0.3.1'
 #pod 'LGAlertView'
 #pod 'SZTextView'
 #pod 'Pingpp/Alipay', '~> 2.1.0'

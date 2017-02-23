@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9505CA771E5DB6580064562C /* libPods-MSBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD86BD6B8974CB61951BFCE /* libPods-MSBase.a */; };
 		953317201CF5C70D00890E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9533171F1CF5C70D00890E4F /* main.m */; };
 		953317231CF5C70D00890E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953317221CF5C70D00890E4F /* AppDelegate.m */; };
 		953317261CF5C70D00890E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953317251CF5C70D00890E4F /* ViewController.m */; };
@@ -22,6 +23,19 @@
 		954EDD621CFC2DAC009B1038 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD611CFC2DAC009B1038 /* UIViewController+Tracking.m */; };
 		954EDD671CFC34D7009B1038 /* MSLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD661CFC34D7009B1038 /* MSLogHelper.m */; };
 		954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD6A1CFC3A48009B1038 /* TestViewController.m */; };
+		95789B3C1E5E79A5004D995D /* MSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B3B1E5E79A5004D995D /* MSOperation.m */; };
+		95789B3F1E5E7AEB004D995D /* MSShareOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B3E1E5E7AEB004D995D /* MSShareOperation.m */; };
+		95789B471E5E8272004D995D /* ELCtrlTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B421E5E8272004D995D /* ELCtrlTransitioningDelegate.m */; };
+		95789B481E5E8272004D995D /* ELObjectTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B441E5E8272004D995D /* ELObjectTransitioningDelegate.m */; };
+		95789B491E5E8272004D995D /* UIViewController+ELPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B461E5E8272004D995D /* UIViewController+ELPresent.m */; };
+		95789B4C1E5E8486004D995D /* UIView+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B4B1E5E8486004D995D /* UIView+EL.m */; };
+		95789B501E5E855B004D995D /* MSShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B4F1E5E855B004D995D /* MSShareController.m */; };
+		95789B601E5E8BC3004D995D /* ELBasicH5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B591E5E8BC3004D995D /* ELBasicH5Controller.m */; };
+		95789B611E5E8BC3004D995D /* ELH5ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B5B1E5E8BC3004D995D /* ELH5ErrorView.m */; };
+		95789B621E5E8BC3004D995D /* ELWebViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B5D1E5E8BC3004D995D /* ELWebViewHelper.m */; };
+		95789B631E5E8BC3004D995D /* UIViewController+H5Jump.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */; };
+		95789B661E5EAB3A004D995D /* UIBarButtonItem+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */; };
+		95789B691E5EAE13004D995D /* UIButton+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B681E5EAE13004D995D /* UIButton+EL.m */; };
 		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
 		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
 		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
@@ -53,12 +67,14 @@
 		95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72111CFED16D0001ED50 /* MSRequest.m */; };
 		95DB48A21D17C5A900F03324 /* MSHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A11D17C5A900F03324 /* MSHttpConfig.m */; };
 		95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A41D17CDEB00F03324 /* MSHttpProcess.m */; };
-		D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BA59A261A63E6CED2A6ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230D6C2333F43A559E1720D4 /* Pods-MSBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSBase/Pods-MSBase.debug.xcconfig"; sourceTree = "<group>"; };
+		423A637A79D62E2A0EFF41F7 /* Pods-MSBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSBase/Pods-MSBase.release.xcconfig"; sourceTree = "<group>"; };
 		6B8647F169AC0B37B6A2C6AD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		89068A1DE50ED0F9CAAC5DEE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8CD86BD6B8974CB61951BFCE /* libPods-MSBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9533171B1CF5C70D00890E4F /* MSBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9533171F1CF5C70D00890E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		953317211CF5C70D00890E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +106,32 @@
 		954EDD681CFC3842009B1038 /* MSURLActionDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSURLActionDefinition.h; sourceTree = "<group>"; };
 		954EDD691CFC3A48009B1038 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		954EDD6A1CFC3A48009B1038 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		95789B3A1E5E79A5004D995D /* MSOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSOperation.h; sourceTree = "<group>"; };
+		95789B3B1E5E79A5004D995D /* MSOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSOperation.m; sourceTree = "<group>"; };
+		95789B3D1E5E7AEB004D995D /* MSShareOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSShareOperation.h; sourceTree = "<group>"; };
+		95789B3E1E5E7AEB004D995D /* MSShareOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSShareOperation.m; sourceTree = "<group>"; };
+		95789B411E5E8272004D995D /* ELCtrlTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCtrlTransitioningDelegate.h; sourceTree = "<group>"; };
+		95789B421E5E8272004D995D /* ELCtrlTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCtrlTransitioningDelegate.m; sourceTree = "<group>"; };
+		95789B431E5E8272004D995D /* ELObjectTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELObjectTransitioningDelegate.h; sourceTree = "<group>"; };
+		95789B441E5E8272004D995D /* ELObjectTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELObjectTransitioningDelegate.m; sourceTree = "<group>"; };
+		95789B451E5E8272004D995D /* UIViewController+ELPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELPresent.h"; sourceTree = "<group>"; };
+		95789B461E5E8272004D995D /* UIViewController+ELPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELPresent.m"; sourceTree = "<group>"; };
+		95789B4A1E5E8486004D995D /* UIView+EL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EL.h"; sourceTree = "<group>"; };
+		95789B4B1E5E8486004D995D /* UIView+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EL.m"; sourceTree = "<group>"; };
+		95789B4E1E5E855B004D995D /* MSShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSShareController.h; sourceTree = "<group>"; };
+		95789B4F1E5E855B004D995D /* MSShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSShareController.m; sourceTree = "<group>"; };
+		95789B581E5E8BC3004D995D /* ELBasicH5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELBasicH5Controller.h; sourceTree = "<group>"; };
+		95789B591E5E8BC3004D995D /* ELBasicH5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELBasicH5Controller.m; sourceTree = "<group>"; };
+		95789B5A1E5E8BC3004D995D /* ELH5ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELH5ErrorView.h; sourceTree = "<group>"; };
+		95789B5B1E5E8BC3004D995D /* ELH5ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELH5ErrorView.m; sourceTree = "<group>"; };
+		95789B5C1E5E8BC3004D995D /* ELWebViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELWebViewHelper.h; sourceTree = "<group>"; };
+		95789B5D1E5E8BC3004D995D /* ELWebViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELWebViewHelper.m; sourceTree = "<group>"; };
+		95789B5E1E5E8BC3004D995D /* UIViewController+H5Jump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+H5Jump.h"; sourceTree = "<group>"; };
+		95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+H5Jump.m"; sourceTree = "<group>"; };
+		95789B641E5EAB3A004D995D /* UIBarButtonItem+EL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+EL.h"; sourceTree = "<group>"; };
+		95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+EL.m"; sourceTree = "<group>"; };
+		95789B671E5EAE13004D995D /* UIButton+EL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EL.h"; sourceTree = "<group>"; };
+		95789B681E5EAE13004D995D /* UIButton+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EL.m"; sourceTree = "<group>"; };
 		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
 		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
 		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
@@ -161,7 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FE06A51BEDB9F6B710AD84 /* libPods.a in Frameworks */,
+				9505CA771E5DB6580064562C /* libPods-MSBase.a in Frameworks */,
 				95BD720B1CFECC210001ED50 /* MSFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				AD8BA59A261A63E6CED2A6ED /* libPods.a */,
+				8CD86BD6B8974CB61951BFCE /* libPods-MSBase.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -251,18 +294,25 @@
 		954EDD381CFC126A009B1038 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				95789B401E5E8272004D995D /* Presented */,
 				95BD71DE1CFEBAEE0001ED50 /* UIImage-Helpers */,
 				954EDD4C1CFC20C6009B1038 /* MSCategory.h */,
 				954EDD4D1CFC20E5009B1038 /* UIColor+MS.h */,
 				954EDD4E1CFC20E5009B1038 /* UIColor+MS.m */,
 				954EDD601CFC2DAC009B1038 /* UIViewController+Tracking.h */,
 				954EDD611CFC2DAC009B1038 /* UIViewController+Tracking.m */,
+				95789B641E5EAB3A004D995D /* UIBarButtonItem+EL.h */,
+				95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */,
+				95789B671E5EAE13004D995D /* UIButton+EL.h */,
+				95789B681E5EAE13004D995D /* UIButton+EL.m */,
 				95BD71C01CFE87F80001ED50 /* MSHelper+Navigation.h */,
 				95BD71C11CFE87F80001ED50 /* MSHelper+Navigation.m */,
 				95BD71C31CFE88100001ED50 /* MSHelper+UIBarButtonItem.h */,
 				95BD71C41CFE88100001ED50 /* MSHelper+UIBarButtonItem.m */,
 				95BD71DB1CFEBA7C0001ED50 /* UIViewController+Popup.h */,
 				95BD71DC1CFEBA7C0001ED50 /* UIViewController+Popup.m */,
+				95789B4A1E5E8486004D995D /* UIView+EL.h */,
+				95789B4B1E5E8486004D995D /* UIView+EL.m */,
 				95BD72011CFEBBD50001ED50 /* UIActionSheet+Block.h */,
 				95BD72021CFEBBD50001ED50 /* UIActionSheet+Block.m */,
 				95BD72031CFEBBD50001ED50 /* UIAlertView+Block.h */,
@@ -286,6 +336,7 @@
 		954EDD3A1CFC126A009B1038 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
+				95789B391E5E796E004D995D /* MSOperation */,
 				95BD720F1CFED0FE0001ED50 /* Http */,
 				954EDD531CFC23B6009B1038 /* Model */,
 				954EDD3B1CFC126A009B1038 /* Help */,
@@ -351,6 +402,7 @@
 		954EDD451CFC1F2E009B1038 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				95789B511E5E8A60004D995D /* H5 */,
 				954EDD461CFC1F46009B1038 /* MSViewController.h */,
 				954EDD471CFC1F46009B1038 /* MSViewController.m */,
 				954EDD491CFC1FE5009B1038 /* MSNavigationController.h */,
@@ -377,6 +429,7 @@
 		954EDD571CFC25CB009B1038 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				95789B4D1E5E8528004D995D /* Share */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -395,6 +448,54 @@
 			children = (
 			);
 			path = Me;
+			sourceTree = "<group>";
+		};
+		95789B391E5E796E004D995D /* MSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				95789B3A1E5E79A5004D995D /* MSOperation.h */,
+				95789B3B1E5E79A5004D995D /* MSOperation.m */,
+				95789B3D1E5E7AEB004D995D /* MSShareOperation.h */,
+				95789B3E1E5E7AEB004D995D /* MSShareOperation.m */,
+			);
+			path = MSOperation;
+			sourceTree = "<group>";
+		};
+		95789B401E5E8272004D995D /* Presented */ = {
+			isa = PBXGroup;
+			children = (
+				95789B411E5E8272004D995D /* ELCtrlTransitioningDelegate.h */,
+				95789B421E5E8272004D995D /* ELCtrlTransitioningDelegate.m */,
+				95789B431E5E8272004D995D /* ELObjectTransitioningDelegate.h */,
+				95789B441E5E8272004D995D /* ELObjectTransitioningDelegate.m */,
+				95789B451E5E8272004D995D /* UIViewController+ELPresent.h */,
+				95789B461E5E8272004D995D /* UIViewController+ELPresent.m */,
+			);
+			path = Presented;
+			sourceTree = "<group>";
+		};
+		95789B4D1E5E8528004D995D /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				95789B4E1E5E855B004D995D /* MSShareController.h */,
+				95789B4F1E5E855B004D995D /* MSShareController.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		95789B511E5E8A60004D995D /* H5 */ = {
+			isa = PBXGroup;
+			children = (
+				95789B581E5E8BC3004D995D /* ELBasicH5Controller.h */,
+				95789B591E5E8BC3004D995D /* ELBasicH5Controller.m */,
+				95789B5A1E5E8BC3004D995D /* ELH5ErrorView.h */,
+				95789B5B1E5E8BC3004D995D /* ELH5ErrorView.m */,
+				95789B5C1E5E8BC3004D995D /* ELWebViewHelper.h */,
+				95789B5D1E5E8BC3004D995D /* ELWebViewHelper.m */,
+				95789B5E1E5E8BC3004D995D /* UIViewController+H5Jump.h */,
+				95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */,
+			);
+			path = H5;
 			sourceTree = "<group>";
 		};
 		95BD71B91CFE87710001ED50 /* guide */ = {
@@ -452,6 +553,8 @@
 			children = (
 				6B8647F169AC0B37B6A2C6AD /* Pods.debug.xcconfig */,
 				89068A1DE50ED0F9CAAC5DEE /* Pods.release.xcconfig */,
+				230D6C2333F43A559E1720D4 /* Pods-MSBase.debug.xcconfig */,
+				423A637A79D62E2A0EFF41F7 /* Pods-MSBase.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -463,12 +566,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 953317321CF5C70D00890E4F /* Build configuration list for PBXNativeTarget "MSBase" */;
 			buildPhases = (
-				3846B3FC1D8DAB2BD0670E1C /* Check Pods Manifest.lock */,
+				3846B3FC1D8DAB2BD0670E1C /* [CP] Check Pods Manifest.lock */,
 				953317171CF5C70D00890E4F /* Sources */,
 				953317181CF5C70D00890E4F /* Frameworks */,
 				953317191CF5C70D00890E4F /* Resources */,
-				92D253FE82C8F1109E554791 /* Embed Pods Frameworks */,
-				87719CD37B53E26DFC52E12C /* Copy Pods Resources */,
+				92D253FE82C8F1109E554791 /* [CP] Embed Pods Frameworks */,
+				87719CD37B53E26DFC52E12C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -528,49 +631,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3846B3FC1D8DAB2BD0670E1C /* Check Pods Manifest.lock */ = {
+		3846B3FC1D8DAB2BD0670E1C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		87719CD37B53E26DFC52E12C /* Copy Pods Resources */ = {
+		87719CD37B53E26DFC52E12C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSBase/Pods-MSBase-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		92D253FE82C8F1109E554791 /* Embed Pods Frameworks */ = {
+		92D253FE82C8F1109E554791 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSBase/Pods-MSBase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -580,9 +683,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95789B3F1E5E7AEB004D995D /* MSShareOperation.m in Sources */,
 				95BD71D21CFEAECC0001ED50 /* MSAnalyticsManager.m in Sources */,
+				95789B481E5E8272004D995D /* ELObjectTransitioningDelegate.m in Sources */,
+				95789B661E5EAB3A004D995D /* UIBarButtonItem+EL.m in Sources */,
 				954EDD481CFC1F46009B1038 /* MSViewController.m in Sources */,
 				954EDD671CFC34D7009B1038 /* MSLogHelper.m in Sources */,
+				95789B4C1E5E8486004D995D /* UIView+EL.m in Sources */,
 				95BD71FB1CFEBAEE0001ED50 /* UIImage+Tagged.m in Sources */,
 				95BD71D81CFEB3B60001ED50 /* MSPushService.m in Sources */,
 				95BD71FC1CFEBAEE0001ED50 /* UIImage+TM.m in Sources */,
@@ -592,17 +699,25 @@
 				954EDD5F1CFC28B2009B1038 /* MSLoginViewController.m in Sources */,
 				95BD71F41CFEBAEE0001ED50 /* UIImage+Blur.m in Sources */,
 				95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */,
+				95789B691E5EAE13004D995D /* UIButton+EL.m in Sources */,
 				95BD71FD1CFEBAEE0001ED50 /* UIImage+Utilities.m in Sources */,
 				95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */,
+				95789B601E5E8BC3004D995D /* ELBasicH5Controller.m in Sources */,
 				953317231CF5C70D00890E4F /* AppDelegate.m in Sources */,
+				95789B491E5E8272004D995D /* UIViewController+ELPresent.m in Sources */,
 				954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */,
 				95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */,
+				95789B501E5E855B004D995D /* MSShareController.m in Sources */,
 				954EDD621CFC2DAC009B1038 /* UIViewController+Tracking.m in Sources */,
+				95789B621E5E8BC3004D995D /* ELWebViewHelper.m in Sources */,
 				95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */,
 				954EDD4F1CFC20E5009B1038 /* UIColor+MS.m in Sources */,
 				95BD71FA1CFEBAEE0001ED50 /* UIImage+Screenshot.m in Sources */,
+				95789B471E5E8272004D995D /* ELCtrlTransitioningDelegate.m in Sources */,
+				95789B631E5E8BC3004D995D /* UIViewController+H5Jump.m in Sources */,
 				95BD71F71CFEBAEE0001ED50 /* UIImage+ImageEffects.m in Sources */,
 				95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */,
+				95789B3C1E5E79A5004D995D /* MSOperation.m in Sources */,
 				95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */,
 				95BD71DD1CFEBA7C0001ED50 /* UIViewController+Popup.m in Sources */,
 				95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */,
@@ -611,6 +726,7 @@
 				95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */,
 				95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */,
 				954EDD4B1CFC1FE5009B1038 /* MSNavigationController.m in Sources */,
+				95789B611E5E8BC3004D995D /* ELH5ErrorView.m in Sources */,
 				95BD72071CFEBBD50001ED50 /* UIActionSheet+Block.m in Sources */,
 				95DB48A21D17C5A900F03324 /* MSHttpConfig.m in Sources */,
 				95BD71F81CFEBAEE0001ED50 /* UIImage+ImageWithColor.m in Sources */,
@@ -732,7 +848,7 @@
 		};
 		953317331CF5C70D00890E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B8647F169AC0B37B6A2C6AD /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 230D6C2333F43A559E1720D4 /* Pods-MSBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -765,9 +881,9 @@
 					"\"${PODS_ROOT}/Headers/Public/UIViewController-KeyboardAdditions\"",
 					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
 					"\"${PODS_ROOT}/Headers/Public/XTSafeCollection\"",
-					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 					"\"${PODS_ROOT}/Headers/Public/pop\"",
 					"$(PROJECT_DIR)/MSBase/framework/MSFoundation.framework/Headers",
+					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 				);
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -783,7 +899,7 @@
 		};
 		953317341CF5C70D00890E4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89068A1DE50ED0F9CAAC5DEE /* Pods.release.xcconfig */;
+			baseConfigurationReference = 423A637A79D62E2A0EFF41F7 /* Pods-MSBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -817,9 +933,9 @@
 					"\"${PODS_ROOT}/Headers/Public/UIViewController-KeyboardAdditions\"",
 					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
 					"\"${PODS_ROOT}/Headers/Public/XTSafeCollection\"",
-					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 					"\"${PODS_ROOT}/Headers/Public/pop\"",
 					"$(PROJECT_DIR)/MSBase/framework/MSFoundation.framework/Headers",
+					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
 				);
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
