@@ -6,6 +6,8 @@ target “MSBase”
 #友盟分享 友盟统计
 pod 'UMengSocialCOM', '~> 5.2.1'
 pod 'UMengAnalytics-NO-IDFA'
+#WebView进度
+pod 'NJKWebViewProgress', '~> 0.2.3'
 pod 'UIViewController+Swizzled'
 pod 'Masonry'
 pod 'YTKNetwork'

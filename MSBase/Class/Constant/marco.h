@@ -30,6 +30,12 @@ _Pragma("clang diagnostic pop") \
 //网络请求
 #import "MSHttpProcess.h"
 
+//友盟
+#import "UMSocial.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialSinaSSOHandler.h"
+#import "UMSocialWechatHandler.h"
+
 #ifdef DEBUG
 static DDLogLevel ddLogLevel = DDLogLevelVerbose;
 #else

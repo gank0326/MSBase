@@ -8,7 +8,7 @@
 
 #import "MSAnalyticsManager.h"
 
-static NSString *const UMAppKey  = @"563df57367e58ec175001cbd";
+static NSString *const UMAppKey  = @"58ad5e5899f0c73323001a2b";
 
 @implementation MSAnalyticsManager
 
@@ -20,6 +20,14 @@ static NSString *const UMAppKey  = @"563df57367e58ec175001cbd";
     [MobClick setAppVersion:[MSAppCoreInfo shortVersionString]];
     [MobClick setCrashReportEnabled:YES];
     [MobClick setLogSendInterval:3600];
+    
+    //分享设置
+    [UMSocialData setAppKey:UMAppKey];
+    [UMSocialWechatHandler setWXAppId:EL3rdConfig(@"wxAppId") appSecret:EL3rdConfig(@"wxAppSecret") url:nil];
+   // [UMSocialQQHandler setQQWithAppId:EL3rdConfig(@"qqAppId") appKey:EL3rdConfig(@"qqAppSecret") url:EL3rdConfig(@"qqURL")];
+    [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:EL3rdConfig(@"sinaWeiboAppId")
+                                              secret:EL3rdConfig(@"sinaWeiboAppSecret")
+                                         RedirectURL:EL3rdConfig(@"sinaWeiboURL")];
 }
 
 @end
