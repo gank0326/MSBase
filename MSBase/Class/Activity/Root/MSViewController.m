@@ -35,6 +35,11 @@
     self.isAppear = NO;
     viewDidloadCalled = YES;
     self.autoCreateBackButtonItem = YES;
+    [self customView];
+    
+}
+
+- (void)customView {
     self.view.backgroundColor = RGB_A(241, 241, 241, 1.0);
 }
 

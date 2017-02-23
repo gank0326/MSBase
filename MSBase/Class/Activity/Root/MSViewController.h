@@ -29,4 +29,7 @@
 
 - (void)willPopupFromNavigation;
 
+/** 初始化UI界面 */
+- (void)customView;
+
 @end

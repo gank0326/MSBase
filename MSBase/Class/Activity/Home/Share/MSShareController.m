@@ -30,12 +30,8 @@
     [self.shareQueue cancelAllOperations];
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self customView];
-}
-
 -(void)customView {
+    [super customView];
     self.view.backgroundColor = [UIColor whiteColor];
     [self initUI];
     self.shareQueue = [[NSOperationQueue alloc] init];
