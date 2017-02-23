@@ -30,6 +30,12 @@
 		95789B491E5E8272004D995D /* UIViewController+ELPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B461E5E8272004D995D /* UIViewController+ELPresent.m */; };
 		95789B4C1E5E8486004D995D /* UIView+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B4B1E5E8486004D995D /* UIView+EL.m */; };
 		95789B501E5E855B004D995D /* MSShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B4F1E5E855B004D995D /* MSShareController.m */; };
+		95789B601E5E8BC3004D995D /* ELBasicH5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B591E5E8BC3004D995D /* ELBasicH5Controller.m */; };
+		95789B611E5E8BC3004D995D /* ELH5ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B5B1E5E8BC3004D995D /* ELH5ErrorView.m */; };
+		95789B621E5E8BC3004D995D /* ELWebViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B5D1E5E8BC3004D995D /* ELWebViewHelper.m */; };
+		95789B631E5E8BC3004D995D /* UIViewController+H5Jump.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */; };
+		95789B661E5EAB3A004D995D /* UIBarButtonItem+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */; };
+		95789B691E5EAE13004D995D /* UIButton+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B681E5EAE13004D995D /* UIButton+EL.m */; };
 		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
 		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
 		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
@@ -114,6 +120,18 @@
 		95789B4B1E5E8486004D995D /* UIView+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EL.m"; sourceTree = "<group>"; };
 		95789B4E1E5E855B004D995D /* MSShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSShareController.h; sourceTree = "<group>"; };
 		95789B4F1E5E855B004D995D /* MSShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSShareController.m; sourceTree = "<group>"; };
+		95789B581E5E8BC3004D995D /* ELBasicH5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELBasicH5Controller.h; sourceTree = "<group>"; };
+		95789B591E5E8BC3004D995D /* ELBasicH5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELBasicH5Controller.m; sourceTree = "<group>"; };
+		95789B5A1E5E8BC3004D995D /* ELH5ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELH5ErrorView.h; sourceTree = "<group>"; };
+		95789B5B1E5E8BC3004D995D /* ELH5ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELH5ErrorView.m; sourceTree = "<group>"; };
+		95789B5C1E5E8BC3004D995D /* ELWebViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELWebViewHelper.h; sourceTree = "<group>"; };
+		95789B5D1E5E8BC3004D995D /* ELWebViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELWebViewHelper.m; sourceTree = "<group>"; };
+		95789B5E1E5E8BC3004D995D /* UIViewController+H5Jump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+H5Jump.h"; sourceTree = "<group>"; };
+		95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+H5Jump.m"; sourceTree = "<group>"; };
+		95789B641E5EAB3A004D995D /* UIBarButtonItem+EL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+EL.h"; sourceTree = "<group>"; };
+		95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+EL.m"; sourceTree = "<group>"; };
+		95789B671E5EAE13004D995D /* UIButton+EL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EL.h"; sourceTree = "<group>"; };
+		95789B681E5EAE13004D995D /* UIButton+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EL.m"; sourceTree = "<group>"; };
 		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
 		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
 		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
@@ -283,6 +301,10 @@
 				954EDD4E1CFC20E5009B1038 /* UIColor+MS.m */,
 				954EDD601CFC2DAC009B1038 /* UIViewController+Tracking.h */,
 				954EDD611CFC2DAC009B1038 /* UIViewController+Tracking.m */,
+				95789B641E5EAB3A004D995D /* UIBarButtonItem+EL.h */,
+				95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */,
+				95789B671E5EAE13004D995D /* UIButton+EL.h */,
+				95789B681E5EAE13004D995D /* UIButton+EL.m */,
 				95BD71C01CFE87F80001ED50 /* MSHelper+Navigation.h */,
 				95BD71C11CFE87F80001ED50 /* MSHelper+Navigation.m */,
 				95BD71C31CFE88100001ED50 /* MSHelper+UIBarButtonItem.h */,
@@ -380,6 +402,7 @@
 		954EDD451CFC1F2E009B1038 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				95789B511E5E8A60004D995D /* H5 */,
 				954EDD461CFC1F46009B1038 /* MSViewController.h */,
 				954EDD471CFC1F46009B1038 /* MSViewController.m */,
 				954EDD491CFC1FE5009B1038 /* MSNavigationController.h */,
@@ -458,6 +481,21 @@
 				95789B4F1E5E855B004D995D /* MSShareController.m */,
 			);
 			path = Share;
+			sourceTree = "<group>";
+		};
+		95789B511E5E8A60004D995D /* H5 */ = {
+			isa = PBXGroup;
+			children = (
+				95789B581E5E8BC3004D995D /* ELBasicH5Controller.h */,
+				95789B591E5E8BC3004D995D /* ELBasicH5Controller.m */,
+				95789B5A1E5E8BC3004D995D /* ELH5ErrorView.h */,
+				95789B5B1E5E8BC3004D995D /* ELH5ErrorView.m */,
+				95789B5C1E5E8BC3004D995D /* ELWebViewHelper.h */,
+				95789B5D1E5E8BC3004D995D /* ELWebViewHelper.m */,
+				95789B5E1E5E8BC3004D995D /* UIViewController+H5Jump.h */,
+				95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */,
+			);
+			path = H5;
 			sourceTree = "<group>";
 		};
 		95BD71B91CFE87710001ED50 /* guide */ = {
@@ -647,6 +685,7 @@
 				95789B3F1E5E7AEB004D995D /* MSShareOperation.m in Sources */,
 				95BD71D21CFEAECC0001ED50 /* MSAnalyticsManager.m in Sources */,
 				95789B481E5E8272004D995D /* ELObjectTransitioningDelegate.m in Sources */,
+				95789B661E5EAB3A004D995D /* UIBarButtonItem+EL.m in Sources */,
 				954EDD481CFC1F46009B1038 /* MSViewController.m in Sources */,
 				954EDD671CFC34D7009B1038 /* MSLogHelper.m in Sources */,
 				95789B4C1E5E8486004D995D /* UIView+EL.m in Sources */,
@@ -659,18 +698,22 @@
 				954EDD5F1CFC28B2009B1038 /* MSLoginViewController.m in Sources */,
 				95BD71F41CFEBAEE0001ED50 /* UIImage+Blur.m in Sources */,
 				95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */,
+				95789B691E5EAE13004D995D /* UIButton+EL.m in Sources */,
 				95BD71FD1CFEBAEE0001ED50 /* UIImage+Utilities.m in Sources */,
 				95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */,
+				95789B601E5E8BC3004D995D /* ELBasicH5Controller.m in Sources */,
 				953317231CF5C70D00890E4F /* AppDelegate.m in Sources */,
 				95789B491E5E8272004D995D /* UIViewController+ELPresent.m in Sources */,
 				954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */,
 				95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */,
 				95789B501E5E855B004D995D /* MSShareController.m in Sources */,
 				954EDD621CFC2DAC009B1038 /* UIViewController+Tracking.m in Sources */,
+				95789B621E5E8BC3004D995D /* ELWebViewHelper.m in Sources */,
 				95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */,
 				954EDD4F1CFC20E5009B1038 /* UIColor+MS.m in Sources */,
 				95BD71FA1CFEBAEE0001ED50 /* UIImage+Screenshot.m in Sources */,
 				95789B471E5E8272004D995D /* ELCtrlTransitioningDelegate.m in Sources */,
+				95789B631E5E8BC3004D995D /* UIViewController+H5Jump.m in Sources */,
 				95BD71F71CFEBAEE0001ED50 /* UIImage+ImageEffects.m in Sources */,
 				95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */,
 				95789B3C1E5E79A5004D995D /* MSOperation.m in Sources */,
@@ -682,6 +725,7 @@
 				95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */,
 				95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */,
 				954EDD4B1CFC1FE5009B1038 /* MSNavigationController.m in Sources */,
+				95789B611E5E8BC3004D995D /* ELH5ErrorView.m in Sources */,
 				95BD72071CFEBBD50001ED50 /* UIActionSheet+Block.m in Sources */,
 				95DB48A21D17C5A900F03324 /* MSHttpConfig.m in Sources */,
 				95BD71F81CFEBAEE0001ED50 /* UIImage+ImageWithColor.m in Sources */,

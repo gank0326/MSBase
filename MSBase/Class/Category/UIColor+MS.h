@@ -52,4 +52,7 @@
 /** 主色调 */
 + (UIColor *)el_mainColor;
 
+/** 不可点击按钮色 */
++ (UIColor *)el_btnUnableColor;
+
 @end

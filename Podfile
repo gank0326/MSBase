@@ -24,6 +24,8 @@ pod 'XTSafeCollection'
 pod 'JPush'
 pod 'JSPatch'
 pod 'DZNEmptyDataSet'
+#EM私有库
+#pod 'SBLib',:git=>"https://github.com/doll313/SBLib", :tag => '0.3.1'
 #pod 'LGAlertView'
 #pod 'SZTextView'
 #pod 'Pingpp/Alipay', '~> 2.1.0'
