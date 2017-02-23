@@ -24,7 +24,7 @@ static NSString *const UMAppKey  = @"58ad5e5899f0c73323001a2b";
     //分享设置
     [UMSocialData setAppKey:UMAppKey];
     [UMSocialWechatHandler setWXAppId:EL3rdConfig(@"wxAppId") appSecret:EL3rdConfig(@"wxAppSecret") url:nil];
-   // [UMSocialQQHandler setQQWithAppId:EL3rdConfig(@"qqAppId") appKey:EL3rdConfig(@"qqAppSecret") url:EL3rdConfig(@"qqURL")];
+    [UMSocialQQHandler setQQWithAppId:EL3rdConfig(@"qqAppId") appKey:EL3rdConfig(@"qqAppSecret") url:EL3rdConfig(@"qqURL")];
     [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:EL3rdConfig(@"sinaWeiboAppId")
                                               secret:EL3rdConfig(@"sinaWeiboAppSecret")
                                          RedirectURL:EL3rdConfig(@"sinaWeiboURL")];

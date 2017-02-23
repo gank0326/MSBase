@@ -9,6 +9,9 @@
 #ifndef MSDefine_h
 #define MSDefine_h
 
+
+#define ELLandscape (SCREEN_WIDTH > SCREEN_HEIGHT) 
+#define SBAppDisplayName [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
 #define EL3rdConfig(key) [[[[NSBundle mainBundle] infoDictionary] objectForKey:@"EL3rdConfig"] objectForKey:key]
 #define kThemeColor        RGB_A(247, 74,112, 1.0)//主题色
 #define kShowWelcomePage              @"kShowWelcomePage"           //显示引导页

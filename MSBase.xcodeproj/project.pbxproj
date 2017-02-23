@@ -23,6 +23,13 @@
 		954EDD621CFC2DAC009B1038 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD611CFC2DAC009B1038 /* UIViewController+Tracking.m */; };
 		954EDD671CFC34D7009B1038 /* MSLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD661CFC34D7009B1038 /* MSLogHelper.m */; };
 		954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EDD6A1CFC3A48009B1038 /* TestViewController.m */; };
+		95789B3C1E5E79A5004D995D /* MSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B3B1E5E79A5004D995D /* MSOperation.m */; };
+		95789B3F1E5E7AEB004D995D /* MSShareOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B3E1E5E7AEB004D995D /* MSShareOperation.m */; };
+		95789B471E5E8272004D995D /* ELCtrlTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B421E5E8272004D995D /* ELCtrlTransitioningDelegate.m */; };
+		95789B481E5E8272004D995D /* ELObjectTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B441E5E8272004D995D /* ELObjectTransitioningDelegate.m */; };
+		95789B491E5E8272004D995D /* UIViewController+ELPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B461E5E8272004D995D /* UIViewController+ELPresent.m */; };
+		95789B4C1E5E8486004D995D /* UIView+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B4B1E5E8486004D995D /* UIView+EL.m */; };
+		95789B501E5E855B004D995D /* MSShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B4F1E5E855B004D995D /* MSShareController.m */; };
 		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
 		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
 		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
@@ -93,6 +100,20 @@
 		954EDD681CFC3842009B1038 /* MSURLActionDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSURLActionDefinition.h; sourceTree = "<group>"; };
 		954EDD691CFC3A48009B1038 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		954EDD6A1CFC3A48009B1038 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		95789B3A1E5E79A5004D995D /* MSOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSOperation.h; sourceTree = "<group>"; };
+		95789B3B1E5E79A5004D995D /* MSOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSOperation.m; sourceTree = "<group>"; };
+		95789B3D1E5E7AEB004D995D /* MSShareOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSShareOperation.h; sourceTree = "<group>"; };
+		95789B3E1E5E7AEB004D995D /* MSShareOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSShareOperation.m; sourceTree = "<group>"; };
+		95789B411E5E8272004D995D /* ELCtrlTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCtrlTransitioningDelegate.h; sourceTree = "<group>"; };
+		95789B421E5E8272004D995D /* ELCtrlTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCtrlTransitioningDelegate.m; sourceTree = "<group>"; };
+		95789B431E5E8272004D995D /* ELObjectTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELObjectTransitioningDelegate.h; sourceTree = "<group>"; };
+		95789B441E5E8272004D995D /* ELObjectTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELObjectTransitioningDelegate.m; sourceTree = "<group>"; };
+		95789B451E5E8272004D995D /* UIViewController+ELPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELPresent.h"; sourceTree = "<group>"; };
+		95789B461E5E8272004D995D /* UIViewController+ELPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELPresent.m"; sourceTree = "<group>"; };
+		95789B4A1E5E8486004D995D /* UIView+EL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EL.h"; sourceTree = "<group>"; };
+		95789B4B1E5E8486004D995D /* UIView+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EL.m"; sourceTree = "<group>"; };
+		95789B4E1E5E855B004D995D /* MSShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSShareController.h; sourceTree = "<group>"; };
+		95789B4F1E5E855B004D995D /* MSShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSShareController.m; sourceTree = "<group>"; };
 		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
 		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
 		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
@@ -255,6 +276,7 @@
 		954EDD381CFC126A009B1038 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				95789B401E5E8272004D995D /* Presented */,
 				95BD71DE1CFEBAEE0001ED50 /* UIImage-Helpers */,
 				954EDD4C1CFC20C6009B1038 /* MSCategory.h */,
 				954EDD4D1CFC20E5009B1038 /* UIColor+MS.h */,
@@ -267,6 +289,8 @@
 				95BD71C41CFE88100001ED50 /* MSHelper+UIBarButtonItem.m */,
 				95BD71DB1CFEBA7C0001ED50 /* UIViewController+Popup.h */,
 				95BD71DC1CFEBA7C0001ED50 /* UIViewController+Popup.m */,
+				95789B4A1E5E8486004D995D /* UIView+EL.h */,
+				95789B4B1E5E8486004D995D /* UIView+EL.m */,
 				95BD72011CFEBBD50001ED50 /* UIActionSheet+Block.h */,
 				95BD72021CFEBBD50001ED50 /* UIActionSheet+Block.m */,
 				95BD72031CFEBBD50001ED50 /* UIAlertView+Block.h */,
@@ -290,6 +314,7 @@
 		954EDD3A1CFC126A009B1038 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
+				95789B391E5E796E004D995D /* MSOperation */,
 				95BD720F1CFED0FE0001ED50 /* Http */,
 				954EDD531CFC23B6009B1038 /* Model */,
 				954EDD3B1CFC126A009B1038 /* Help */,
@@ -381,6 +406,7 @@
 		954EDD571CFC25CB009B1038 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				95789B4D1E5E8528004D995D /* Share */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -399,6 +425,39 @@
 			children = (
 			);
 			path = Me;
+			sourceTree = "<group>";
+		};
+		95789B391E5E796E004D995D /* MSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				95789B3A1E5E79A5004D995D /* MSOperation.h */,
+				95789B3B1E5E79A5004D995D /* MSOperation.m */,
+				95789B3D1E5E7AEB004D995D /* MSShareOperation.h */,
+				95789B3E1E5E7AEB004D995D /* MSShareOperation.m */,
+			);
+			path = MSOperation;
+			sourceTree = "<group>";
+		};
+		95789B401E5E8272004D995D /* Presented */ = {
+			isa = PBXGroup;
+			children = (
+				95789B411E5E8272004D995D /* ELCtrlTransitioningDelegate.h */,
+				95789B421E5E8272004D995D /* ELCtrlTransitioningDelegate.m */,
+				95789B431E5E8272004D995D /* ELObjectTransitioningDelegate.h */,
+				95789B441E5E8272004D995D /* ELObjectTransitioningDelegate.m */,
+				95789B451E5E8272004D995D /* UIViewController+ELPresent.h */,
+				95789B461E5E8272004D995D /* UIViewController+ELPresent.m */,
+			);
+			path = Presented;
+			sourceTree = "<group>";
+		};
+		95789B4D1E5E8528004D995D /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				95789B4E1E5E855B004D995D /* MSShareController.h */,
+				95789B4F1E5E855B004D995D /* MSShareController.m */,
+			);
+			path = Share;
 			sourceTree = "<group>";
 		};
 		95BD71B91CFE87710001ED50 /* guide */ = {
@@ -585,9 +644,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95789B3F1E5E7AEB004D995D /* MSShareOperation.m in Sources */,
 				95BD71D21CFEAECC0001ED50 /* MSAnalyticsManager.m in Sources */,
+				95789B481E5E8272004D995D /* ELObjectTransitioningDelegate.m in Sources */,
 				954EDD481CFC1F46009B1038 /* MSViewController.m in Sources */,
 				954EDD671CFC34D7009B1038 /* MSLogHelper.m in Sources */,
+				95789B4C1E5E8486004D995D /* UIView+EL.m in Sources */,
 				95BD71FB1CFEBAEE0001ED50 /* UIImage+Tagged.m in Sources */,
 				95BD71D81CFEB3B60001ED50 /* MSPushService.m in Sources */,
 				95BD71FC1CFEBAEE0001ED50 /* UIImage+TM.m in Sources */,
@@ -600,14 +662,18 @@
 				95BD71FD1CFEBAEE0001ED50 /* UIImage+Utilities.m in Sources */,
 				95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */,
 				953317231CF5C70D00890E4F /* AppDelegate.m in Sources */,
+				95789B491E5E8272004D995D /* UIViewController+ELPresent.m in Sources */,
 				954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */,
 				95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */,
+				95789B501E5E855B004D995D /* MSShareController.m in Sources */,
 				954EDD621CFC2DAC009B1038 /* UIViewController+Tracking.m in Sources */,
 				95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */,
 				954EDD4F1CFC20E5009B1038 /* UIColor+MS.m in Sources */,
 				95BD71FA1CFEBAEE0001ED50 /* UIImage+Screenshot.m in Sources */,
+				95789B471E5E8272004D995D /* ELCtrlTransitioningDelegate.m in Sources */,
 				95BD71F71CFEBAEE0001ED50 /* UIImage+ImageEffects.m in Sources */,
 				95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */,
+				95789B3C1E5E79A5004D995D /* MSOperation.m in Sources */,
 				95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */,
 				95BD71DD1CFEBA7C0001ED50 /* UIViewController+Popup.m in Sources */,
 				95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */,

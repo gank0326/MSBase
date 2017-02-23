@@ -35,6 +35,10 @@ _Pragma("clang diagnostic pop") \
 #import "UMSocialQQHandler.h"
 #import "UMSocialSinaSSOHandler.h"
 #import "UMSocialWechatHandler.h"
+//微信分享静态库 头文件
+#import "WXApi.h"
+#import "WXApiObject.h"
+#import "WeiboSDK.h" //weibo
 
 #ifdef DEBUG
 static DDLogLevel ddLogLevel = DDLogLevelVerbose;
