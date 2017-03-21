@@ -42,6 +42,7 @@
 		95A8B1941E80F4B8001D87F5 /* MHInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */; };
 		95A8B1961E81008E001D87F5 /* ad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95A8B1951E81008E001D87F5 /* ad1.jpg */; };
 		95A8B19A1E810D27001D87F5 /* JCServiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1991E810D27001D87F5 /* JCServiceView.m */; };
+		95A8B1A21E812658001D87F5 /* ELHomeHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1A11E812658001D87F5 /* ELHomeHotCell.m */; };
 		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
 		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
 		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
@@ -148,6 +149,8 @@
 		95A8B1951E81008E001D87F5 /* ad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad1.jpg; sourceTree = "<group>"; };
 		95A8B1981E810D27001D87F5 /* JCServiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCServiceView.h; sourceTree = "<group>"; };
 		95A8B1991E810D27001D87F5 /* JCServiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCServiceView.m; sourceTree = "<group>"; };
+		95A8B1A01E812658001D87F5 /* ELHomeHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELHomeHotCell.h; sourceTree = "<group>"; };
+		95A8B1A11E812658001D87F5 /* ELHomeHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELHomeHotCell.m; sourceTree = "<group>"; };
 		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
 		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
 		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
@@ -539,6 +542,8 @@
 		95A8B1971E810D12001D87F5 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				95A8B1A01E812658001D87F5 /* ELHomeHotCell.h */,
+				95A8B1A11E812658001D87F5 /* ELHomeHotCell.m */,
 				95A8B1981E810D27001D87F5 /* JCServiceView.h */,
 				95A8B1991E810D27001D87F5 /* JCServiceView.m */,
 			);
@@ -746,6 +751,7 @@
 				953317261CF5C70D00890E4F /* ViewController.m in Sources */,
 				954EDD561CFC23D2009B1038 /* MSUserInfo.m in Sources */,
 				954EDD5F1CFC28B2009B1038 /* MSLoginViewController.m in Sources */,
+				95A8B1A21E812658001D87F5 /* ELHomeHotCell.m in Sources */,
 				95A8B1941E80F4B8001D87F5 /* MHInfoViewController.m in Sources */,
 				95BD71F41CFEBAEE0001ED50 /* UIImage+Blur.m in Sources */,
 				95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */,
