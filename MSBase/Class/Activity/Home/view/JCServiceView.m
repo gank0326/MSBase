@@ -45,7 +45,7 @@
 
 -(UIImageView *)imageView{
     if (!_imageView) {
-        _imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 16, 66, 66)];
+        _imageView=[[UIImageView alloc]initWithFrame:CGRectMake((self.width-60)/2, 18, 60, 60)];
         _imageView.backgroundColor=[UIColor clearColor];
         [self addSubview:_imageView];
     }
@@ -54,7 +54,7 @@
 
 -(UILabel *)nameLabel{
     if (!_nameLabel) {
-        _nameLabel=[[UILabel alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.imageView.frame)+5, 66, 20)];
+        _nameLabel=[[UILabel alloc]initWithFrame:CGRectMake((self.width-60)/2, CGRectGetMaxY(self.imageView.frame)+5, 60, 20)];
         _nameLabel.font=[UIFont systemFontOfSize:14.0];
         _nameLabel.backgroundColor=[UIColor clearColor];
         _nameLabel.textColor=[UIColor el_titleColor];
