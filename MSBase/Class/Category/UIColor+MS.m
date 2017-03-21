@@ -76,7 +76,8 @@
 
 /** 主色调 */
 + (UIColor *)el_mainColor {
-    return RGB(0xff, 0x68, 0x27);
+    return RGB_HEX(0x52b8f8);
+//    return RGB(0xff, 0x68, 0x27);
 }
 /** 不可点击按钮色 */
 + (UIColor *)el_btnUnableColor {

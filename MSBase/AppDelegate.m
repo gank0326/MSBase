@@ -27,7 +27,7 @@
     [MSLaunchHelper install:self.window];
     
     //极光推送
-    [MSPushService install:launchOptions];
+//    [MSPushService install:launchOptions];
     
     return YES;
 }

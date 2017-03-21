@@ -11,7 +11,6 @@
 #import "MSUserInfo.h"
 #import "MSLogHelper.h"
 #import "MSAnalyticsManager.h"
-#import "MSHotUpdateManager.h"
 #import "MSHttpConfig.h"
 
 @interface MSLaunchHelper ()
@@ -42,27 +41,24 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
     [self loadGolbalConfig];
     
     //日志打印
-    [MSLogHelper install];
+//    [MSLogHelper install];
     
     //友盟统计
-    [MSAnalyticsManager install];
-    
-    //热更新
-    [MSHotUpdateManager install];
-    
+//    [MSAnalyticsManager install];
+        
     //网络请求配置
     [MSHttpConfig install];
     
     //引导页
-    NSMutableArray *guideArr = [NSMutableArray new];
-    for (int i = 0; i < 3; i++) {
-        NSString *imageName = [NSString stringWithFormat:@"welcome%d", i + 1];
-        [guideArr addObject:imageName];
-    }
-    [MSHelper loadGuideViewToView:self.window
-                             imageArr:guideArr
-                        pageIconImage:nil
-                pageSelectedIconImage:nil];
+//    NSMutableArray *guideArr = [NSMutableArray new];
+//    for (int i = 0; i < 3; i++) {
+//        NSString *imageName = [NSString stringWithFormat:@"welcome%d", i + 1];
+//        [guideArr addObject:imageName];
+//    }
+//    [MSHelper loadGuideViewToView:self.window
+//                             imageArr:guideArr
+//                        pageIconImage:nil
+//                pageSelectedIconImage:nil];
     
     //开机响应
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidFinishLaunchingNotification:) name:UIApplicationDidFinishLaunchingNotification object:nil];
@@ -137,11 +133,11 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
 //界面
 - (void)ctrlDidLoad {
     UIViewController *ctrl = nil;
-    if (![MSUserInfo hasLogined]) {
-        ctrl = [self loginCtrl];
-    }else {
+//    if (![MSUserInfo hasLogined]) {
+//        ctrl = [self loginCtrl];
+//    }else {
         ctrl = [MSHelper getRootViewController];//tab界面
-    }
+//    }
     self.window.rootViewController = ctrl;
     [self.window makeKeyAndVisible];
 }

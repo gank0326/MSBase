@@ -33,7 +33,7 @@
 #import "CocoaLumberjack.h"
 
 //三方 热更新
-#import "JPEngine.h"
+//#import "JPEngine.h"
 
 //三方 极光推送
 #import "JPUSHService.h"

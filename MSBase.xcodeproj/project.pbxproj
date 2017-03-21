@@ -36,6 +36,10 @@
 		95789B631E5E8BC3004D995D /* UIViewController+H5Jump.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */; };
 		95789B661E5EAB3A004D995D /* UIBarButtonItem+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */; };
 		95789B691E5EAE13004D995D /* UIButton+EL.m in Sources */ = {isa = PBXBuildFile; fileRef = 95789B681E5EAE13004D995D /* UIButton+EL.m */; };
+		95A8B18B1E80F46E001D87F5 /* MHIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B18A1E80F46E001D87F5 /* MHIndexViewController.m */; };
+		95A8B18E1E80F487001D87F5 /* MHSmokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B18D1E80F487001D87F5 /* MHSmokeViewController.m */; };
+		95A8B1911E80F496001D87F5 /* MHToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1901E80F496001D87F5 /* MHToolsViewController.m */; };
+		95A8B1941E80F4B8001D87F5 /* MHInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */; };
 		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
 		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
 		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
@@ -45,7 +49,6 @@
 		95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CA1CFE8A6B0001ED50 /* MSNavigationBar.m */; };
 		95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CD1CFE8FC30001ED50 /* MSUtil.m */; };
 		95BD71D21CFEAECC0001ED50 /* MSAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */; };
-		95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */; };
 		95BD71D81CFEB3B60001ED50 /* MSPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D71CFEB3B60001ED50 /* MSPushService.m */; };
 		95BD71DA1CFEB8D70001ED50 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 95BD71D91CFEB8D70001ED50 /* demo.js */; };
 		95BD71DD1CFEBA7C0001ED50 /* UIViewController+Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71DC1CFEBA7C0001ED50 /* UIViewController+Popup.m */; };
@@ -132,6 +135,14 @@
 		95789B651E5EAB3A004D995D /* UIBarButtonItem+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+EL.m"; sourceTree = "<group>"; };
 		95789B671E5EAE13004D995D /* UIButton+EL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EL.h"; sourceTree = "<group>"; };
 		95789B681E5EAE13004D995D /* UIButton+EL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EL.m"; sourceTree = "<group>"; };
+		95A8B1891E80F46E001D87F5 /* MHIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHIndexViewController.h; sourceTree = "<group>"; };
+		95A8B18A1E80F46E001D87F5 /* MHIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHIndexViewController.m; sourceTree = "<group>"; };
+		95A8B18C1E80F487001D87F5 /* MHSmokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSmokeViewController.h; sourceTree = "<group>"; };
+		95A8B18D1E80F487001D87F5 /* MHSmokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHSmokeViewController.m; sourceTree = "<group>"; };
+		95A8B18F1E80F496001D87F5 /* MHToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHToolsViewController.h; sourceTree = "<group>"; };
+		95A8B1901E80F496001D87F5 /* MHToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHToolsViewController.m; sourceTree = "<group>"; };
+		95A8B1921E80F4B8001D87F5 /* MHInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHInfoViewController.h; sourceTree = "<group>"; };
+		95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHInfoViewController.m; sourceTree = "<group>"; };
 		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
 		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
 		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
@@ -151,8 +162,6 @@
 		95BD71CF1CFEA6300001ED50 /* MSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDefine.h; sourceTree = "<group>"; };
 		95BD71D01CFEAECC0001ED50 /* MSAnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAnalyticsManager.h; sourceTree = "<group>"; };
 		95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAnalyticsManager.m; sourceTree = "<group>"; };
-		95BD71D31CFEB12B0001ED50 /* MSHotUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHotUpdateManager.h; sourceTree = "<group>"; };
-		95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHotUpdateManager.m; sourceTree = "<group>"; };
 		95BD71D61CFEB3B60001ED50 /* MSPushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPushService.h; sourceTree = "<group>"; };
 		95BD71D71CFEB3B60001ED50 /* MSPushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPushService.m; sourceTree = "<group>"; };
 		95BD71D91CFEB8D70001ED50 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
@@ -283,9 +292,11 @@
 		954EDD371CFC126A009B1038 /* Activity */ = {
 			isa = PBXGroup;
 			children = (
+				95A8B1861E80F3C3001D87F5 /* Info */,
+				95A8B1871E80F3C3001D87F5 /* SmallTools */,
+				95A8B1881E80F3C3001D87F5 /* Smoke */,
 				954EDD571CFC25CB009B1038 /* Home */,
 				954EDD581CFC25CB009B1038 /* Login */,
-				954EDD591CFC25CB009B1038 /* Me */,
 				954EDD451CFC1F2E009B1038 /* Root */,
 			);
 			path = Activity;
@@ -364,8 +375,6 @@
 			children = (
 				95BD71D01CFEAECC0001ED50 /* MSAnalyticsManager.h */,
 				95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */,
-				95BD71D31CFEB12B0001ED50 /* MSHotUpdateManager.h */,
-				95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */,
 				95BD71D61CFEB3B60001ED50 /* MSPushService.h */,
 				95BD71D71CFEB3B60001ED50 /* MSPushService.m */,
 				95DB48A01D17C5A900F03324 /* MSHttpConfig.h */,
@@ -430,6 +439,8 @@
 			isa = PBXGroup;
 			children = (
 				95789B4D1E5E8528004D995D /* Share */,
+				95A8B1891E80F46E001D87F5 /* MHIndexViewController.h */,
+				95A8B18A1E80F46E001D87F5 /* MHIndexViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -441,13 +452,6 @@
 				954EDD5E1CFC28B2009B1038 /* MSLoginViewController.m */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		954EDD591CFC25CB009B1038 /* Me */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Me;
 			sourceTree = "<group>";
 		};
 		95789B391E5E796E004D995D /* MSOperation */ = {
@@ -496,6 +500,33 @@
 				95789B5F1E5E8BC3004D995D /* UIViewController+H5Jump.m */,
 			);
 			path = H5;
+			sourceTree = "<group>";
+		};
+		95A8B1861E80F3C3001D87F5 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				95A8B1921E80F4B8001D87F5 /* MHInfoViewController.h */,
+				95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		95A8B1871E80F3C3001D87F5 /* SmallTools */ = {
+			isa = PBXGroup;
+			children = (
+				95A8B18F1E80F496001D87F5 /* MHToolsViewController.h */,
+				95A8B1901E80F496001D87F5 /* MHToolsViewController.m */,
+			);
+			path = SmallTools;
+			sourceTree = "<group>";
+		};
+		95A8B1881E80F3C3001D87F5 /* Smoke */ = {
+			isa = PBXGroup;
+			children = (
+				95A8B18C1E80F487001D87F5 /* MHSmokeViewController.h */,
+				95A8B18D1E80F487001D87F5 /* MHSmokeViewController.m */,
+			);
+			path = Smoke;
 			sourceTree = "<group>";
 		};
 		95BD71B91CFE87710001ED50 /* guide */ = {
@@ -692,17 +723,21 @@
 				95789B4C1E5E8486004D995D /* UIView+EL.m in Sources */,
 				95BD71FB1CFEBAEE0001ED50 /* UIImage+Tagged.m in Sources */,
 				95BD71D81CFEB3B60001ED50 /* MSPushService.m in Sources */,
+				95A8B18B1E80F46E001D87F5 /* MHIndexViewController.m in Sources */,
 				95BD71FC1CFEBAEE0001ED50 /* UIImage+TM.m in Sources */,
 				95BD71F61CFEBAEE0001ED50 /* UIImage+Compress.m in Sources */,
 				953317261CF5C70D00890E4F /* ViewController.m in Sources */,
 				954EDD561CFC23D2009B1038 /* MSUserInfo.m in Sources */,
 				954EDD5F1CFC28B2009B1038 /* MSLoginViewController.m in Sources */,
+				95A8B1941E80F4B8001D87F5 /* MHInfoViewController.m in Sources */,
 				95BD71F41CFEBAEE0001ED50 /* UIImage+Blur.m in Sources */,
 				95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */,
+				95A8B1911E80F496001D87F5 /* MHToolsViewController.m in Sources */,
 				95789B691E5EAE13004D995D /* UIButton+EL.m in Sources */,
 				95BD71FD1CFEBAEE0001ED50 /* UIImage+Utilities.m in Sources */,
 				95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */,
 				95789B601E5E8BC3004D995D /* ELBasicH5Controller.m in Sources */,
+				95A8B18E1E80F487001D87F5 /* MHSmokeViewController.m in Sources */,
 				953317231CF5C70D00890E4F /* AppDelegate.m in Sources */,
 				95789B491E5E8272004D995D /* UIViewController+ELPresent.m in Sources */,
 				954EDD6B1CFC3A48009B1038 /* TestViewController.m in Sources */,
@@ -724,7 +759,6 @@
 				95BD71C21CFE87F80001ED50 /* MSHelper+Navigation.m in Sources */,
 				95BD72091CFEBBD50001ED50 /* UIButton+Timer.m in Sources */,
 				95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */,
-				95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */,
 				954EDD4B1CFC1FE5009B1038 /* MSNavigationController.m in Sources */,
 				95789B611E5E8BC3004D995D /* ELH5ErrorView.m in Sources */,
 				95BD72071CFEBBD50001ED50 /* UIActionSheet+Block.m in Sources */,
@@ -870,7 +904,6 @@
 					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
 					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
 					"\"${PODS_ROOT}/Headers/Public/JPush\"",
-					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
@@ -888,13 +921,48 @@
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PODS_ROOT)/UMengAnalytics-NO-IDFA/**\"",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Line/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Instagram/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DZNEmptyDataSet\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/NJKWebViewProgress\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDCycleScrollView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDiPhoneVersion\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UICKeyChainStore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UIViewController+Swizzled\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UIViewController-KeyboardAdditions\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/XTSafeCollection\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YTKNetwork\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/pop\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/JCore\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/JPush\"",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"AFNetworking\"",
 					"-l\"CocoaLumberjack\"",
 					"-l\"DZNEmptyDataSet\"",
-					"-l\"JSPatch\"",
 					"-l\"MJExtension\"",
 					"-l\"MJRefresh\"",
 					"-l\"Masonry\"",
@@ -975,7 +1043,6 @@
 					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
 					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
 					"\"${PODS_ROOT}/Headers/Public/JPush\"",
-					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
@@ -993,12 +1060,47 @@
 				INFOPLIST_FILE = MSBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PODS_ROOT)/UMengAnalytics-NO-IDFA/**\"",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Wechat/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Line/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Instagram/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Twitter/**",
+					"$(PODS_ROOT)/UmengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/Facebook/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DZNEmptyDataSet\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/NJKWebViewProgress\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDCycleScrollView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDiPhoneVersion\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UICKeyChainStore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UIViewController+Swizzled\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UIViewController-KeyboardAdditions\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/XTSafeCollection\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YTKNetwork\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/pop\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/JCore\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/JPush\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"AFNetworking\"",
 					"-l\"CocoaLumberjack\"",
 					"-l\"DZNEmptyDataSet\"",
-					"-l\"JSPatch\"",
 					"-l\"MJExtension\"",
 					"-l\"MJRefresh\"",
 					"-l\"Masonry\"",
