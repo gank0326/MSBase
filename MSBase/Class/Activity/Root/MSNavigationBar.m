@@ -20,18 +20,20 @@
 }
 
 - (void)setCustomBarTintColor:(UIColor *)barTintColor {
-    
-    NSArray *list=self.subviews;
-    for (id obj in list) {
-        if ([obj isKindOfClass:[UIImageView class]]) {
-            UIImageView *imageView=(UIImageView *)obj;
-            imageView.hidden=YES;
-        }
-    }
-    UIImageView *imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, -20, SCREEN_WIDTH, 64)];
-    imageView.image=[UIImage sb_imageWithColor:barTintColor];
-    [self addSubview:imageView];
-    [self sendSubviewToBack:imageView];
+    /*
+     NSArray *list=self.subviews;
+     for (id obj in list) {
+     if ([obj isKindOfClass:[UIImageView class]]) {
+     UIImageView *imageView=(UIImageView *)obj;
+     imageView.hidden=YES;
+     }
+     }
+     UIImageView *imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, -20, SCREEN_WIDTH, 64)];
+     imageView.image=[UIImage sb_imageWithColor:barTintColor];
+     [self addSubview:imageView];
+     [self sendSubviewToBack:imageView];
+     */
+    [self setBarTintColor:barTintColor];
 }
 
 @end

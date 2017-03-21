@@ -24,6 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.title = @"控烟干预";
+}
 /*
 #pragma mark - Navigation
 

@@ -32,7 +32,6 @@
     [self setupAppearance];
 }
 
-
 - (void)setupNavController {
     UIViewController *home = [MSURLAction sb_initCtrl:[MSURLAction actionWithClassName:@"MHIndexViewController"]];
     UIViewController *smoke = [MSURLAction sb_initCtrl:[MSURLAction actionWithClassName:@"MHSmokeViewController"]];

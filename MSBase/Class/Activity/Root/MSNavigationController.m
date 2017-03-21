@@ -123,7 +123,7 @@
 - (void)changeSkin {
     MSNavigationBar *bar = (MSNavigationBar *)self.navigationBar;
     if (bar && [bar isKindOfClass:[MSNavigationBar class]]) {
-        [bar setCustomBarTintColor:kThemeColor];
+        [bar setCustomBarTintColor:[UIColor el_titleColor]];
         [bar setShadowImage:[UIImage new]];
     }
     NSShadow *shadow = [[NSShadow alloc] init];

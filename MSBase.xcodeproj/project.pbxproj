@@ -40,6 +40,7 @@
 		95A8B18E1E80F487001D87F5 /* MHSmokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B18D1E80F487001D87F5 /* MHSmokeViewController.m */; };
 		95A8B1911E80F496001D87F5 /* MHToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1901E80F496001D87F5 /* MHToolsViewController.m */; };
 		95A8B1941E80F4B8001D87F5 /* MHInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */; };
+		95A8B1961E81008E001D87F5 /* ad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95A8B1951E81008E001D87F5 /* ad1.jpg */; };
 		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
 		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
 		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
@@ -143,6 +144,7 @@
 		95A8B1901E80F496001D87F5 /* MHToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHToolsViewController.m; sourceTree = "<group>"; };
 		95A8B1921E80F4B8001D87F5 /* MHInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHInfoViewController.h; sourceTree = "<group>"; };
 		95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHInfoViewController.m; sourceTree = "<group>"; };
+		95A8B1951E81008E001D87F5 /* ad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad1.jpg; sourceTree = "<group>"; };
 		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
 		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
 		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
@@ -441,6 +443,7 @@
 				95789B4D1E5E8528004D995D /* Share */,
 				95A8B1891E80F46E001D87F5 /* MHIndexViewController.h */,
 				95A8B18A1E80F46E001D87F5 /* MHIndexViewController.m */,
+				95A8B1951E81008E001D87F5 /* ad1.jpg */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -656,6 +659,7 @@
 				9533172B1CF5C70D00890E4F /* Assets.xcassets in Resources */,
 				953317291CF5C70D00890E4F /* Main.storyboard in Resources */,
 				95BD71DA1CFEB8D70001ED50 /* demo.js in Resources */,
+				95A8B1961E81008E001D87F5 /* ad1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

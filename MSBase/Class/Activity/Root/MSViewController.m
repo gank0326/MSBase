@@ -40,7 +40,7 @@
 }
 
 - (void)customView {
-    self.view.backgroundColor = RGB_A(241, 241, 241, 1.0);
+    self.view.backgroundColor = RGB_A(240, 240, 240, 1.0);
 }
 
 - (void)didReceiveMemoryWarning {
