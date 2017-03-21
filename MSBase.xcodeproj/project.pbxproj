@@ -41,6 +41,7 @@
 		95A8B1911E80F496001D87F5 /* MHToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1901E80F496001D87F5 /* MHToolsViewController.m */; };
 		95A8B1941E80F4B8001D87F5 /* MHInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */; };
 		95A8B1961E81008E001D87F5 /* ad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95A8B1951E81008E001D87F5 /* ad1.jpg */; };
+		95A8B19A1E810D27001D87F5 /* JCServiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B1991E810D27001D87F5 /* JCServiceView.m */; };
 		95BD71B81CFE85D60001ED50 /* MSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71B71CFE85D60001ED50 /* MSHelper.m */; };
 		95BD71BE1CFE87710001ED50 /* MSGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BB1CFE87710001ED50 /* MSGuideView.m */; };
 		95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71BD1CFE87710001ED50 /* MSMyPageControl.m */; };
@@ -145,6 +146,8 @@
 		95A8B1921E80F4B8001D87F5 /* MHInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHInfoViewController.h; sourceTree = "<group>"; };
 		95A8B1931E80F4B8001D87F5 /* MHInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHInfoViewController.m; sourceTree = "<group>"; };
 		95A8B1951E81008E001D87F5 /* ad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad1.jpg; sourceTree = "<group>"; };
+		95A8B1981E810D27001D87F5 /* JCServiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCServiceView.h; sourceTree = "<group>"; };
+		95A8B1991E810D27001D87F5 /* JCServiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCServiceView.m; sourceTree = "<group>"; };
 		95BD71B61CFE85D60001ED50 /* MSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHelper.h; sourceTree = "<group>"; };
 		95BD71B71CFE85D60001ED50 /* MSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHelper.m; sourceTree = "<group>"; };
 		95BD71BA1CFE87710001ED50 /* MSGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGuideView.h; sourceTree = "<group>"; };
@@ -440,6 +443,7 @@
 		954EDD571CFC25CB009B1038 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				95A8B1971E810D12001D87F5 /* view */,
 				95789B4D1E5E8528004D995D /* Share */,
 				95A8B1891E80F46E001D87F5 /* MHIndexViewController.h */,
 				95A8B18A1E80F46E001D87F5 /* MHIndexViewController.m */,
@@ -530,6 +534,15 @@
 				95A8B18D1E80F487001D87F5 /* MHSmokeViewController.m */,
 			);
 			path = Smoke;
+			sourceTree = "<group>";
+		};
+		95A8B1971E810D12001D87F5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				95A8B1981E810D27001D87F5 /* JCServiceView.h */,
+				95A8B1991E810D27001D87F5 /* JCServiceView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		95BD71B91CFE87710001ED50 /* guide */ = {
@@ -759,6 +772,7 @@
 				95789B3C1E5E79A5004D995D /* MSOperation.m in Sources */,
 				95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */,
 				95BD71DD1CFEBA7C0001ED50 /* UIViewController+Popup.m in Sources */,
+				95A8B19A1E810D27001D87F5 /* JCServiceView.m in Sources */,
 				95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */,
 				95BD71C21CFE87F80001ED50 /* MSHelper+Navigation.m in Sources */,
 				95BD72091CFEBBD50001ED50 /* UIButton+Timer.m in Sources */,

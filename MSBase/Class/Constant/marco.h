@@ -20,6 +20,7 @@ _Pragma("clang diagnostic pop") \
 //常用宏定义
 #import "MSDefine.h"
 
+#import "UIImageView+WebCache.h"
 #import "MSViewController.h"
 #import "MSNavigationController.h"
 //跳转
