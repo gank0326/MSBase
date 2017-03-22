@@ -7,6 +7,7 @@
 //
 
 #import "JCServiceView.h"
+#import "MHKnowledgeListController.h"
 
 @interface JCServiceView(){
     NSDictionary *currentDic;
@@ -37,10 +38,14 @@
 }
 
 -(void)viewTapped {
-        NSString *title = [currentDic objectForKey:@"name"];
-    
-//        MQGoodListViewController *list = [[MQGoodListViewController alloc] initWithTitle:title withType:categoryId];
-//        [JCViewHelper pushViewController:list showNavBar:YES];
+    NSInteger type  = [[currentDic objectForKey:@"typeid"] integerValue];
+    if (type == 1) {
+        MHKnowledgeListController *list = [MHKnowledgeListController new];
+        [MSHelper pushViewControllerAtFirstMainTab:list animate:YES];
+    }
+    else {
+        [(UITabBarController *)[MSHelper getMainView] setSelectedIndex:(type -1)];
+    }
 }
 
 -(UIImageView *)imageView{

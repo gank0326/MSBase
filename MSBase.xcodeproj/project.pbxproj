@@ -71,6 +71,7 @@
 		95BD720B1CFECC210001ED50 /* MSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BD720A1CFECC210001ED50 /* MSFoundation.framework */; };
 		95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD720D1CFECC840001ED50 /* MSFirstViewController.m */; };
 		95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72111CFED16D0001ED50 /* MSRequest.m */; };
+		95D68B1B1E824F7B008C3553 /* MHKnowledgeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D68B1A1E824F7B008C3553 /* MHKnowledgeListController.m */; };
 		95DB48A21D17C5A900F03324 /* MSHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A11D17C5A900F03324 /* MSHttpConfig.m */; };
 		95DB48A51D17CDEB00F03324 /* MSHttpProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A41D17CDEB00F03324 /* MSHttpProcess.m */; };
 /* End PBXBuildFile section */
@@ -207,6 +208,8 @@
 		95BD720D1CFECC840001ED50 /* MSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFirstViewController.m; sourceTree = "<group>"; };
 		95BD72101CFED16D0001ED50 /* MSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRequest.h; sourceTree = "<group>"; };
 		95BD72111CFED16D0001ED50 /* MSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRequest.m; sourceTree = "<group>"; };
+		95D68B191E824F7B008C3553 /* MHKnowledgeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHKnowledgeListController.h; sourceTree = "<group>"; };
+		95D68B1A1E824F7B008C3553 /* MHKnowledgeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHKnowledgeListController.m; sourceTree = "<group>"; };
 		95DB48A01D17C5A900F03324 /* MSHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHttpConfig.h; sourceTree = "<group>"; };
 		95DB48A11D17C5A900F03324 /* MSHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHttpConfig.m; sourceTree = "<group>"; };
 		95DB48A31D17CDEB00F03324 /* MSHttpProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHttpProcess.h; sourceTree = "<group>"; };
@@ -446,6 +449,7 @@
 		954EDD571CFC25CB009B1038 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				95D68B181E824F4A008C3553 /* Knowledge */,
 				95A8B1971E810D12001D87F5 /* view */,
 				95789B4D1E5E8528004D995D /* Share */,
 				95A8B1891E80F46E001D87F5 /* MHIndexViewController.h */,
@@ -598,6 +602,15 @@
 				95DB48A41D17CDEB00F03324 /* MSHttpProcess.m */,
 			);
 			path = Http;
+			sourceTree = "<group>";
+		};
+		95D68B181E824F4A008C3553 /* Knowledge */ = {
+			isa = PBXGroup;
+			children = (
+				95D68B191E824F7B008C3553 /* MHKnowledgeListController.h */,
+				95D68B1A1E824F7B008C3553 /* MHKnowledgeListController.m */,
+			);
+			path = Knowledge;
 			sourceTree = "<group>";
 		};
 		B316B458E38F65BBE58E6820 /* Pods */ = {
@@ -759,6 +772,7 @@
 				95789B691E5EAE13004D995D /* UIButton+EL.m in Sources */,
 				95BD71FD1CFEBAEE0001ED50 /* UIImage+Utilities.m in Sources */,
 				95BD71BF1CFE87710001ED50 /* MSMyPageControl.m in Sources */,
+				95D68B1B1E824F7B008C3553 /* MHKnowledgeListController.m in Sources */,
 				95789B601E5E8BC3004D995D /* ELBasicH5Controller.m in Sources */,
 				95A8B18E1E80F487001D87F5 /* MHSmokeViewController.m in Sources */,
 				953317231CF5C70D00890E4F /* AppDelegate.m in Sources */,
