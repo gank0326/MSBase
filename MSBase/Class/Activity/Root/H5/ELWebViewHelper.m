@@ -21,10 +21,10 @@
     NSDateComponents *components =  [calendar components:currentFlag fromDate:[NSDate date]];
     NSDate *date = [calendar dateFromComponents:components];
     NSString *currentTimeInterval = @(date.timeIntervalSince1970).stringValue;
-    NSString *lastTimeInterval = [[MSAppCoreInfo getCoreDB] getStrValue:@"DEBUG_CACHE_TYPE" dataKey:ELWebViewClearCacheTimestamp];
+    NSString *lastTimeInterval = [[SBAppCoreInfo getCoreDB] getStrValue:@"DEBUG_CACHE_TYPE" dataKey:ELWebViewClearCacheTimestamp];
     if (! [currentTimeInterval isEqualToString:lastTimeInterval]) {
         [ELWebViewHelper clearCache];
-        [[MSAppCoreInfo getCoreDB] setStrValue:@"DEBUG_CACHE_TYPE" dataKey:ELWebViewClearCacheTimestamp dataValue:currentTimeInterval];
+        [[SBAppCoreInfo getCoreDB] setStrValue:@"DEBUG_CACHE_TYPE" dataKey:ELWebViewClearCacheTimestamp dataValue:currentTimeInterval];
     }
 }
 + (void)clearCache {//清除网页缓存
@@ -74,7 +74,7 @@
     NSString *oldAgent = [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
     
     //add my info to the new agent
-    NSString *appendAgent = [NSString stringWithFormat:@"eastmoney_%@_ios_%@",EL3rdConfig(@"appType"),[MSAppCoreInfo shortVersionString]];
+    NSString *appendAgent = [NSString stringWithFormat:@"eastmoney_%@_ios_%@",EL3rdConfig(@"appType"),[SBAppCoreInfo shortVersionString]];
     NSString *newAgent = [oldAgent stringByAppendingString:appendAgent];
     //    NSLog(@"new agent :%@", newAgent);
     

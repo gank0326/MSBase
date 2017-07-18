@@ -12,7 +12,7 @@
 #ifdef __OBJC__
 
 //基础库
-#import <MSFoundation/MSCONSTANT.h>
+#import "SBLib.h"
 
 //类别
 #import "MSCategory.h"
@@ -32,9 +32,6 @@
 //三方 日志
 #import "CocoaLumberjack.h"
 
-//三方 热更新
-#import "JPEngine.h"
-
 //三方 极光推送
 #import "JPUSHService.h"
 
@@ -42,7 +39,7 @@
 #import "JPUSHService.h"
 
 //项目宏
-#import "marco.h"
+#import "MSMarco.h"
 
 #endif
 

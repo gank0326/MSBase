@@ -11,7 +11,6 @@
 #import "MSUserInfo.h"
 #import "MSLogHelper.h"
 #import "MSAnalyticsManager.h"
-#import "MSHotUpdateManager.h"
 #import "MSHttpConfig.h"
 
 @interface MSLaunchHelper ()
@@ -46,9 +45,6 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
     
     //友盟统计
     [MSAnalyticsManager install];
-    
-    //热更新
-    [MSHotUpdateManager install];
     
     //网络请求配置
     [MSHttpConfig install];
@@ -119,7 +115,7 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
 
 /** 启动配制 */
 + (DataItemDetail *)launchInfo {
-    DataItemDetail *launchInfo = [[MSAppCoreInfo getCoreDB] getDetailValue:STORE_CORE_APP_SETTINGS dataKey:@"ELGloBalConfig"];
+    DataItemDetail *launchInfo = [[SBAppCoreInfo getCoreDB] getDetailValue:STORE_CORE_APP_SETTINGS dataKey:@"ELGloBalConfig"];
     if (launchInfo) {
         return launchInfo;
     }
@@ -128,8 +124,8 @@ SB_ARC_SINGLETON_IMPLEMENT(MSLaunchHelper)
 
 //登录界面
 - (MSNavigationController *)loginCtrl {
-    MSURLAction *lAction = [MSURLAction actionWithClassName:@"MSLoginViewController"];
-    UIViewController *lCtrl = [MSURLAction sb_initCtrl:lAction];
+    SBURLAction *lAction = [SBURLAction actionWithClassName:@"MSLoginViewController"];
+    UIViewController *lCtrl = [SBURLAction sb_initCtrl:lAction];
     MSNavigationController *lNav = [[MSNavigationController alloc] initWithRootViewController:lCtrl];
     return lNav;
 }

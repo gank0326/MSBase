@@ -53,7 +53,7 @@
     NSString *shareURL = [self.liveInfo getString:@"url"];
     NSString *shareTitle = [self.liveInfo getString:@"title"];
     NSString *shareIntro = [self.liveInfo getString:@"intro"];
-    WS(weakSelf);
+    SBWS(weakSelf);
     //分享
     [self doShare:self.tag resourceType:resourceType shareImage:shareImage shareURL:shareURL shareTitle:shareTitle shareIntro:shareIntro completion:^(UMSocialResponseEntity *shareResponse, DataItemDetail *detail) {
         [detail setObject:@"0" forKey:@"1"];//0-分享频道，1-分享活动

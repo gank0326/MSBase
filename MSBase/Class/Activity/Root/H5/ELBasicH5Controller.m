@@ -293,7 +293,7 @@
     sCtrl.arrayItem = arrayType;
     [self el_presentShare:sCtrl completion:nil];
     
-    WS(weakSelf)
+    SBWS(weakSelf)
     sCtrl.doShare = ^(UIButton *button) {
         [weakSelf shareLive:button.tag dic:dic url:weakSelf.h5View.URL.absoluteString];
     };
@@ -301,7 +301,7 @@
 
 - (void)shareLive:(NSInteger)tag dic:(NSDictionary *)dic url:(NSString *)url {
     
-    WS(weakSelf)
+    SBWS(weakSelf)
     self.shareCallBackName = [NSString stringWithFormat:@"%@()",dic[@"callbackname"]];
     
     NSString *imgUrl = dic[@"img"];
@@ -499,7 +499,7 @@
 #pragma mark - 加载失败处理
 - (void)showErrorView {
     ELH5ErrorView *errorView = [ELH5ErrorView new];
-    WS(weakSelf)
+    SBWS(weakSelf)
     errorView.buttonBlock = ^(){
         [weakSelf loadURL:self.h5URL];
     };

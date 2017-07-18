@@ -51,7 +51,7 @@
     if (arrayPic.count>0)
     {
         countsPic =[arrayPic count];
-        self.scrollView.contentSize =CGSizeMake(SCREEN_WIDTH*countsPic, SCREEN_HEIGHT);
+        self.scrollView.contentSize =CGSizeMake(APPCONFIG_UI_SCREEN_FWIDTH*countsPic, APPCONFIG_UI_SCREEN_FHEIGHT);
         self.scrollView.pagingEnabled =YES;
         self.scrollView.bounces =NO;
         self.scrollView.delegate = self;
@@ -59,7 +59,7 @@
         self.scrollView.showsHorizontalScrollIndicator =NO;
         for (int i=0; i<countsPic; i++)
         {
-            UIImageView *image =[[UIImageView alloc] initWithFrame:CGRectMake(0+i*SCREEN_WIDTH, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+            UIImageView *image =[[UIImageView alloc] initWithFrame:CGRectMake(0+i*APPCONFIG_UI_SCREEN_FWIDTH, 0, APPCONFIG_UI_SCREEN_FWIDTH, APPCONFIG_UI_SCREEN_FHEIGHT)];
             image.image =[UIImage imageNamed:[arrayPic objectAtIndex:i]];
             [self.scrollView addSubview:image];
             if (i==countsPic-1)
@@ -78,7 +78,7 @@
     
     window.hidden = NO;
     [window addSubview:self];
-    self.pageControl = [[MSMyPageControl alloc]initWithFrame:CGRectMake(0, SCREEN_HEIGHT-50, 320, 48)];
+    self.pageControl = [[MSMyPageControl alloc]initWithFrame:CGRectMake(0, APPCONFIG_UI_SCREEN_FHEIGHT-50, 320, 48)];
     self.pageControl.activeImage = selectedIcon;
     self.pageControl.inactiveImage = icon;
     [_pageControl setNumberOfPages:4];
@@ -108,8 +108,8 @@
      {
          [self removeFromSuperview];
          
-         NSString *shortVersionKey = [MSAppCoreInfo shortVersionString];
-         [[MSAppCoreInfo getCoreDB] setIntValue:kShowWelcomePage dataKey:shortVersionKey dataValue:1];
+         NSString *shortVersionKey = [SBAppCoreInfo shortVersionString];
+         [[SBAppCoreInfo getCoreDB] setIntValue:kShowWelcomePage dataKey:shortVersionKey dataValue:1];
          
      }];
 }

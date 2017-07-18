@@ -17,7 +17,7 @@ static NSString *const UMAppKey  = @"58ad5e5899f0c73323001a2b";
     config.appKey = UMAppKey;
     config.bCrashReportEnabled = YES;
     [MobClick startWithConfigure:config];
-    [MobClick setAppVersion:[MSAppCoreInfo shortVersionString]];
+    [MobClick setAppVersion:[SBAppCoreInfo shortVersionString]];
     [MobClick setCrashReportEnabled:YES];
     [MobClick setLogSendInterval:3600];
     

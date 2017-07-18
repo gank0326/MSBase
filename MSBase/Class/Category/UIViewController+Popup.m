@@ -61,9 +61,9 @@ NSString const *PopupViewOffset = @"PopupViewOffset";
     UIImageView *blurView = [UIImageView new];
     [blurView setUserInteractionEnabled:YES];
     if (UIDeviceOrientationIsPortrait((UIDeviceOrientation) [UIApplication sharedApplication].statusBarOrientation) || NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1) {
-        blurView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+        blurView.frame = CGRectMake(0, 0, APPCONFIG_UI_SCREEN_FWIDTH, APPCONFIG_UI_SCREEN_FHEIGHT);
     } else {
-        blurView.frame = CGRectMake(0, 0, SCREEN_HEIGHT, SCREEN_WIDTH);
+        blurView.frame = CGRectMake(0, 0, APPCONFIG_UI_SCREEN_FHEIGHT, APPCONFIG_UI_SCREEN_FWIDTH);
     }
     blurView.alpha = 0.0f;
     blurView.image = [self getBlurredImage:[self getScreenImage]];

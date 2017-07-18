@@ -24,7 +24,7 @@
 }
 
 - (void)doShareLive:(UIImage *)shotImage {
-    WS(weakSelf);
+    SBWS(weakSelf);
     MSShareController *sCtrl = [[MSShareController alloc] init];
 //    [self.liveData setObject:[self.liveFloatView.headView fecthAvatarImage] forKey:@"avatar"];
     sCtrl.itemDetail = [DataItemDetail new];

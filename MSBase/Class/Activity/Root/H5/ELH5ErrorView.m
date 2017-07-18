@@ -94,7 +94,7 @@
         _button.clipsToBounds = YES;
         [_button setTitle:@"点击刷新" forState:UIControlStateNormal];
         [_button setTitleColor:[UIColor el_labelTitleColor] forState:UIControlStateNormal];
-        WS(weakSelf)
+        SBWS(weakSelf)
         _button.btnAction = ^(UIButton *button){
             [weakSelf removeFromSuperview];
             if (weakSelf.buttonBlock) {

@@ -21,13 +21,14 @@ PODS:
   - CocoaLumberjack/Extensions (3.1.0):
     - CocoaLumberjack/Default
   - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
   - JCore (1.1.1)
   - JPush (3.0.2):
-    - JCore (= 1.1.1)
-  - JSPatch (1.1.3):
-    - JSPatch/Core (= 1.1.3)
-  - JSPatch/Core (1.1.3)
+    - JCore (~> 1.1.1)
   - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
   - NJKWebViewProgress (0.2.3):
@@ -36,6 +37,17 @@ PODS:
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
   - pop (1.0.9)
+  - SBLib (0.7.5):
+    - AFNetworking
+    - FMDB
+    - MBProgressHUD
+    - MJRefresh
+    - SBLib/no-arc (= 0.7.5)
+  - SBLib/no-arc (0.7.5):
+    - AFNetworking
+    - FMDB
+    - MBProgressHUD
+    - MJRefresh
   - SDCycleScrollView (1.65):
     - SDWebImage (~> 3.7)
   - SDiPhoneVersion (1.1.2)
@@ -55,12 +67,12 @@ DEPENDENCIES:
   - CocoaLumberjack
   - DZNEmptyDataSet
   - JPush
-  - JSPatch
   - Masonry
   - MJExtension
   - MJRefresh
   - NJKWebViewProgress (~> 0.2.3)
   - pop
+  - SBLib (from `https://github.com/doll313/SBLib`, tag `0.7.5`)
   - SDCycleScrollView
   - SDiPhoneVersion
   - SDWebImage
@@ -72,18 +84,30 @@ DEPENDENCIES:
   - XTSafeCollection
   - YTKNetwork
 
+EXTERNAL SOURCES:
+  SBLib:
+    :git: https://github.com/doll313/SBLib
+    :tag: 0.7.5
+
+CHECKOUT OPTIONS:
+  SBLib:
+    :git: https://github.com/doll313/SBLib
+    :tag: 0.7.5
+
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   JCore: 2210a789c8efb7dc2a46b1c24d2209b995b18ad2
-  JPush: 5d53c88e32e48b559edc3adb20ade30903a5b9e1
-  JSPatch: 02cfed591cb907bbfe80a346666e5a35fc2d349d
+  JPush: 01a693fafe51b93eafc2e368bbc7a7cc07e12ce4
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SBLib: 5bf9862f75c9dbdeaebc6296a0f9011285545420
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDiPhoneVersion: c52245ccaab8142701e2e7fb8f0391ba3f255b76
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
@@ -95,6 +119,6 @@ SPEC CHECKSUMS:
   XTSafeCollection: c76a5d96f5c68457055ca4b35df7fbe97532d235
   YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
 
-PODFILE CHECKSUM: b6e70213ea841d050a37bda99d3dc0d3e09641b1
+PODFILE CHECKSUM: 8d8eb8c6a5083f919e01472964dcbe2341605c3c
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.3.0.beta.2

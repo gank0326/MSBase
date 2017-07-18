@@ -75,8 +75,8 @@
     NSMutableDictionary *requestArgument= [[NSMutableDictionary alloc] initWithDictionary:body];
     requestArgument[@"platform"] = @"ios";
     requestArgument[@"sys_version"] = [[UIDevice currentDevice] systemVersion];
-    requestArgument[@"soft_version"] = [MSAppCoreInfo shortVersionString];
-    requestArgument[@"screen"] = [NSString stringWithFormat:@"%@*%@", @(SCREEN_WIDTH*2), @(SCREEN_HEIGHT*2)];
+    requestArgument[@"soft_version"] = [SBAppCoreInfo shortVersionString];
+    requestArgument[@"screen"] = [NSString stringWithFormat:@"%@*%@", @(APPCONFIG_UI_SCREEN_FWIDTH*2), @(APPCONFIG_UI_SCREEN_FHEIGHT*2)];
     //    requestArgument[@"signature"] = [JCViewUtil generateRequestSignature:requestArgument];
     return requestArgument;
 }

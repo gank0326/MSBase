@@ -45,9 +45,7 @@
 		95BD71CB1CFE8A6B0001ED50 /* MSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CA1CFE8A6B0001ED50 /* MSNavigationBar.m */; };
 		95BD71CE1CFE8FC30001ED50 /* MSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71CD1CFE8FC30001ED50 /* MSUtil.m */; };
 		95BD71D21CFEAECC0001ED50 /* MSAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */; };
-		95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */; };
 		95BD71D81CFEB3B60001ED50 /* MSPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71D71CFEB3B60001ED50 /* MSPushService.m */; };
-		95BD71DA1CFEB8D70001ED50 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 95BD71D91CFEB8D70001ED50 /* demo.js */; };
 		95BD71DD1CFEBA7C0001ED50 /* UIViewController+Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71DC1CFEBA7C0001ED50 /* UIViewController+Popup.m */; };
 		95BD71F41CFEBAEE0001ED50 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71E01CFEBAEE0001ED50 /* UIImage+Blur.m */; };
 		95BD71F51CFEBAEE0001ED50 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD71E21CFEBAEE0001ED50 /* UIImage+BoxBlur.m */; };
@@ -62,7 +60,6 @@
 		95BD72071CFEBBD50001ED50 /* UIActionSheet+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72021CFEBBD50001ED50 /* UIActionSheet+Block.m */; };
 		95BD72081CFEBBD50001ED50 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72041CFEBBD50001ED50 /* UIAlertView+Block.m */; };
 		95BD72091CFEBBD50001ED50 /* UIButton+Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72061CFEBBD50001ED50 /* UIButton+Timer.m */; };
-		95BD720B1CFECC210001ED50 /* MSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BD720A1CFECC210001ED50 /* MSFoundation.framework */; };
 		95BD720E1CFECC840001ED50 /* MSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD720D1CFECC840001ED50 /* MSFirstViewController.m */; };
 		95BD72121CFED16D0001ED50 /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD72111CFED16D0001ED50 /* MSRequest.m */; };
 		95DB48A21D17C5A900F03324 /* MSHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB48A11D17C5A900F03324 /* MSHttpConfig.m */; };
@@ -94,7 +91,7 @@
 		954EDD4C1CFC20C6009B1038 /* MSCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCategory.h; sourceTree = "<group>"; };
 		954EDD4D1CFC20E5009B1038 /* UIColor+MS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MS.h"; sourceTree = "<group>"; };
 		954EDD4E1CFC20E5009B1038 /* UIColor+MS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MS.m"; sourceTree = "<group>"; };
-		954EDD501CFC2142009B1038 /* marco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = marco.h; sourceTree = "<group>"; };
+		954EDD501CFC2142009B1038 /* MSMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMarco.h; sourceTree = "<group>"; };
 		954EDD541CFC23D2009B1038 /* MSUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUserInfo.h; sourceTree = "<group>"; };
 		954EDD551CFC23D2009B1038 /* MSUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUserInfo.m; sourceTree = "<group>"; };
 		954EDD5D1CFC28B2009B1038 /* MSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoginViewController.h; sourceTree = "<group>"; };
@@ -103,7 +100,6 @@
 		954EDD611CFC2DAC009B1038 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		954EDD651CFC34D7009B1038 /* MSLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLogHelper.h; sourceTree = "<group>"; };
 		954EDD661CFC34D7009B1038 /* MSLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLogHelper.m; sourceTree = "<group>"; };
-		954EDD681CFC3842009B1038 /* MSURLActionDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSURLActionDefinition.h; sourceTree = "<group>"; };
 		954EDD691CFC3A48009B1038 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		954EDD6A1CFC3A48009B1038 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		95789B3A1E5E79A5004D995D /* MSOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSOperation.h; sourceTree = "<group>"; };
@@ -151,11 +147,8 @@
 		95BD71CF1CFEA6300001ED50 /* MSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDefine.h; sourceTree = "<group>"; };
 		95BD71D01CFEAECC0001ED50 /* MSAnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAnalyticsManager.h; sourceTree = "<group>"; };
 		95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAnalyticsManager.m; sourceTree = "<group>"; };
-		95BD71D31CFEB12B0001ED50 /* MSHotUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHotUpdateManager.h; sourceTree = "<group>"; };
-		95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHotUpdateManager.m; sourceTree = "<group>"; };
 		95BD71D61CFEB3B60001ED50 /* MSPushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPushService.h; sourceTree = "<group>"; };
 		95BD71D71CFEB3B60001ED50 /* MSPushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPushService.m; sourceTree = "<group>"; };
-		95BD71D91CFEB8D70001ED50 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
 		95BD71DB1CFEBA7C0001ED50 /* UIViewController+Popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Popup.h"; sourceTree = "<group>"; };
 		95BD71DC1CFEBA7C0001ED50 /* UIViewController+Popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Popup.m"; sourceTree = "<group>"; };
 		95BD71DF1CFEBAEE0001ED50 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
@@ -185,7 +178,6 @@
 		95BD72041CFEBBD50001ED50 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
 		95BD72051CFEBBD50001ED50 /* UIButton+Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Timer.h"; sourceTree = "<group>"; };
 		95BD72061CFEBBD50001ED50 /* UIButton+Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Timer.m"; sourceTree = "<group>"; };
-		95BD720A1CFECC210001ED50 /* MSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSFoundation.framework; sourceTree = "<group>"; };
 		95BD720C1CFECC840001ED50 /* MSFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFirstViewController.h; sourceTree = "<group>"; };
 		95BD720D1CFECC840001ED50 /* MSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFirstViewController.m; sourceTree = "<group>"; };
 		95BD72101CFED16D0001ED50 /* MSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRequest.h; sourceTree = "<group>"; };
@@ -204,7 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9505CA771E5DB6580064562C /* libPods-MSBase.a in Frameworks */,
-				95BD720B1CFECC210001ED50 /* MSFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +252,6 @@
 		9533171E1CF5C70D00890E4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				95BD71D91CFEB8D70001ED50 /* demo.js */,
 				9533171F1CF5C70D00890E4F /* main.m */,
 				95FA69A61CF99E3A0006F5A0 /* MSPrefixHeader.pch */,
 			);
@@ -326,8 +316,7 @@
 		954EDD391CFC126A009B1038 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				954EDD501CFC2142009B1038 /* marco.h */,
-				954EDD681CFC3842009B1038 /* MSURLActionDefinition.h */,
+				954EDD501CFC2142009B1038 /* MSMarco.h */,
 				95BD71CF1CFEA6300001ED50 /* MSDefine.h */,
 			);
 			path = Constant;
@@ -364,8 +353,6 @@
 			children = (
 				95BD71D01CFEAECC0001ED50 /* MSAnalyticsManager.h */,
 				95BD71D11CFEAECC0001ED50 /* MSAnalyticsManager.m */,
-				95BD71D31CFEB12B0001ED50 /* MSHotUpdateManager.h */,
-				95BD71D41CFEB12B0001ED50 /* MSHotUpdateManager.m */,
 				95BD71D61CFEB3B60001ED50 /* MSPushService.h */,
 				95BD71D71CFEB3B60001ED50 /* MSPushService.m */,
 				95DB48A01D17C5A900F03324 /* MSHttpConfig.h */,
@@ -394,7 +381,6 @@
 		954EDD3F1CFC126A009B1038 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				95BD720A1CFECC210001ED50 /* MSFoundation.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -623,7 +609,6 @@
 				9533172E1CF5C70D00890E4F /* LaunchScreen.storyboard in Resources */,
 				9533172B1CF5C70D00890E4F /* Assets.xcassets in Resources */,
 				953317291CF5C70D00890E4F /* Main.storyboard in Resources */,
-				95BD71DA1CFEB8D70001ED50 /* demo.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,13 +621,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSBase-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		87719CD37B53E26DFC52E12C /* [CP] Copy Pods Resources */ = {
@@ -651,9 +639,25 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MSBase/Pods-MSBase-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentDetailController.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentInputController.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSCommentInputControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMShareEditViewController.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMShareEditViewControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSLoginViewController.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSnsAccountViewController.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/SocialSDKXib/UMSShareListController.xib",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/en.lproj",
+				"${PODS_ROOT}/UMengSocialCOM/Umeng_SDK_Social_iOS_ARM64_5.2.1/UMSocial_Sdk_5.2.1/zh-Hans.lproj",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -723,7 +727,6 @@
 				95BD71C21CFE87F80001ED50 /* MSHelper+Navigation.m in Sources */,
 				95BD72091CFEBBD50001ED50 /* UIButton+Timer.m in Sources */,
 				95BD71C51CFE88100001ED50 /* MSHelper+UIBarButtonItem.m in Sources */,
-				95BD71D51CFEB12B0001ED50 /* MSHotUpdateManager.m in Sources */,
 				954EDD4B1CFC1FE5009B1038 /* MSNavigationController.m in Sources */,
 				95789B611E5E8BC3004D995D /* ELH5ErrorView.m in Sources */,
 				95BD72071CFEBBD50001ED50 /* UIActionSheet+Block.m in Sources */,
@@ -869,7 +872,6 @@
 					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
 					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
 					"\"${PODS_ROOT}/Headers/Public/JPush\"",
-					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
@@ -893,7 +895,6 @@
 					"-l\"AFNetworking\"",
 					"-l\"CocoaLumberjack\"",
 					"-l\"DZNEmptyDataSet\"",
-					"-l\"JSPatch\"",
 					"-l\"MJExtension\"",
 					"-l\"MJRefresh\"",
 					"-l\"Masonry\"",
@@ -971,7 +972,6 @@
 					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
 					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
 					"\"${PODS_ROOT}/Headers/Public/JPush\"",
-					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
 					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
@@ -994,7 +994,6 @@
 					"-l\"AFNetworking\"",
 					"-l\"CocoaLumberjack\"",
 					"-l\"DZNEmptyDataSet\"",
-					"-l\"JSPatch\"",
 					"-l\"MJExtension\"",
 					"-l\"MJRefresh\"",
 					"-l\"Masonry\"",

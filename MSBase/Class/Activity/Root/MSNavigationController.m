@@ -35,7 +35,7 @@
     [super viewDidLoad];
     [self changeSkin];
     self.navigationBar.translucent = NO;
-    WS(weakSelf)
+    SBWS(weakSelf)
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
         self.interactivePopGestureRecognizer.delegate = weakSelf;
     }

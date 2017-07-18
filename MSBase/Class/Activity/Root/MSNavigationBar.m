@@ -28,7 +28,7 @@
             imageView.hidden=YES;
         }
     }
-    UIImageView *imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, -20, SCREEN_WIDTH, 64)];
+    UIImageView *imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, -20, APPCONFIG_UI_SCREEN_FWIDTH, 64)];
     imageView.image=[UIImage sb_imageWithColor:barTintColor];
     [self addSubview:imageView];
     [self sendSubviewToBack:imageView];

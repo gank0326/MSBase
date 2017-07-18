@@ -53,7 +53,7 @@
             return YES;
         }
     } else if ([urlString hasPrefix:@"http://"] || [urlString hasPrefix:@"https://"]) {
-        [self.navigationController sb_openCtrl:el_actionurl_h5(nil, [NSURL URLWithString:urlString])];
+//        [self.navigationController sb_openCtrl:el_actionurl_h5(nil, [NSURL URLWithString:urlString])];
         return YES;
     }
     return NO;
